@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import { Amp } from "@wesdollar/crypto-logos.amp";
 import { Eth } from "@wesdollar/crypto-logos.eth";
 import { Uni } from "@wesdollar/crypto-logos.uni";
 import { Xlm } from "@wesdollar/crypto-logos.xlm";
@@ -12,13 +13,14 @@ import InputIcon from "@material-ui/icons/Input";
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 import { fontSizes } from "@wesdollar/dollar-ui.constants.font-sizes";
 import { NumberDisplay } from "@wesdollar/dollar-ui.ui.number-display";
+import { profits as profitsMockResource } from "@wesdollar/dollar-ui.test-data.crypto.resources.profits";
 
 const getCoinLogo = (coinCode) => {
   let Component;
 
   switch (coinCode) {
     case "AMP":
-      Component = <Eth />;
+      Component = <Amp />;
       break;
 
     case "ETH":
@@ -94,7 +96,12 @@ export const WalletSummary = ({
         <div className="money">
           <Text size="small" variant="secondary">
             <AttachMoneyIcon style={{ fontSize: iconFontSize }} />
-            <NumberDisplay>{currentValue}</NumberDisplay>
+            <NumberDisplay
+              colorize={true}
+              sign={Math.sign(currentValue - totalInvestment)}
+            >
+              {currentValue}
+            </NumberDisplay>
             <Space height="0" width={gutters.smallGutter} />
             <InputIcon style={{ fontSize: iconFontSize }} />
             <Space height="0" width={"6px"} />
@@ -113,9 +120,12 @@ WalletSummary.propTypes = {
   currentValue: PropTypes.number.isRequired,
 };
 
+const { totalCoin, totalSpend, currentValue } =
+  profitsMockResource.profits[0].wallet;
+
 WalletSummary.defaultProps = {
   coinCode: "AMP",
-  totalCoin: 17543,
-  totalInvestment: 1050,
-  currentValue: 1623,
+  totalCoin,
+  totalInvestment: totalSpend,
+  currentValue,
 };

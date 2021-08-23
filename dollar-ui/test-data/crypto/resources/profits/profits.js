@@ -1,9 +1,9 @@
 export const profits = {
   meta: {
-    totalInvestment: "9,140.99",
-    currentValue: "9,228.16",
-    profit: "87.17",
-    gains: "0.9%",
+    totalInvestment: 9140.99,
+    currentValue: 9876.63,
+    profit: 735.6399999999994,
+    gains: 0.925517104518444,
   },
   profits: [
     {

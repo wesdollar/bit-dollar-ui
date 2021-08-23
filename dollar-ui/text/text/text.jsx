@@ -35,6 +35,14 @@ const getVariant = (variant) => {
       fontColor = colors.secondaryText;
       break;
 
+    case "positive":
+      fontColor = colors.green;
+      break;
+
+    case "negative":
+      fontColor = colors.red;
+      break;
+
     default:
       fontColor = colors.text;
       break;
@@ -67,7 +75,7 @@ const { children } = propTypes;
 Text.propTypes = {
   children,
   size: PropTypes.oneOf(["small", "large"]),
-  variant: PropTypes.oneOf(["secondary"]),
+  variant: PropTypes.oneOf(["secondary", "positive", "negative"]),
 };
 
 Text.defaultProps = {};

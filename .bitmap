@@ -9,6 +9,12 @@
  */
 
 {
+    "amp": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/amp"
+    },
     "constants/colors": {
         "scope": "wesdollar.dollar-ui",
         "version": "0.0.1",
@@ -41,19 +47,19 @@
     },
     "crypto/list-wallets": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/crypto/list-wallets"
     },
     "crypto/summary-tile": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/crypto/summary-tile"
     },
     "crypto/wallet-summary": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/crypto/wallet-summary"
     },
@@ -71,25 +77,31 @@
     },
     "test-data/crypto/resources/profits": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "dollar-ui/test-data/crypto/resources/profits"
     },
     "text/secondary-text": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/text/secondary-text"
     },
     "text/text": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/text/text"
     },
+    "ui/loading": {
+        "scope": "wesdollar.dollar-ui",
+        "version": "0.0.2",
+        "mainFile": "index.js",
+        "rootDir": "dollar-ui/ui/loading"
+    },
     "ui/number-display": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/number-display"
     },
@@ -101,7 +113,7 @@
     },
     "ui/tile": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/tile"
     },
@@ -119,7 +131,7 @@
     },
     "views/dashboard": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.1",
+        "version": "0.0.7",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/views/dashboard"
     },

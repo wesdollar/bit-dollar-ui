@@ -850,6 +850,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"amp-b41105@workspace:crypto-logos/amp":
+  version: 0.0.0-use.local
+  resolution: "amp-b41105@workspace:crypto-logos/amp"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "ansi-regex@npm:^5.0.0":
   version: 5.0.0
   resolution: "ansi-regex@npm:5.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fansi-regex%2F-%2Fansi-regex-5.0.0.tgz"
@@ -1137,6 +1147,16 @@ __metadata:
   checksum: 1f59fe10b5339b54b1a1eee110022f663f3495cf7cf2f480686e89edc7fa8bfe42dbab4b54f85034bc8b092a76cc7becbc2dad4f9adad332ab5831bec39ad540
   languageName: node
   linkType: hard
+
+"dashboard-03f033@workspace:dollar-ui/views/dashboard":
+  version: 0.0.0-use.local
+  resolution: "dashboard-03f033@workspace:dollar-ui/views/dashboard"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "debug@npm:^4.1.0":
   version: 4.3.2
@@ -1588,6 +1608,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "list-wallets-e1c505@workspace:dollar-ui/crypto/list-wallets"
   peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"loading-af1edf@workspace:dollar-ui/ui/loading":
+  version: 0.0.0-use.local
+  resolution: "loading-af1edf@workspace:dollar-ui/ui/loading"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -1641,6 +1672,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "number-display-0f4a6d@workspace:dollar-ui/ui/number-display"
   peerDependencies:
+    "@testing-library/react": 12.0.0
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -1957,7 +1989,6 @@ __metadata:
     reactstrap: 8.9.0
     styled-components: 5.3.0
   peerDependencies:
-    "@material-ui/core": 4.12.2
     "@testing-library/react": 12.0.0
     react: 16.13.1
     react-dom: 16.13.1
@@ -2159,6 +2190,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "wallet-summary-ae78fa@workspace:dollar-ui/crypto/wallet-summary"
   peerDependencies:
+    "@testing-library/react": 12.0.0
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
