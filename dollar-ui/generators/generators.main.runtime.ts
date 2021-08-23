@@ -176,7 +176,7 @@ labels: ['helper-function']
 | param1      | short description                         |
 
 \`\`\`js
-import { ${context.nameCamelCase} } from "@gritbit/${context.name}";
+import { ${context.nameCamelCase} } from "@wesdollar/${context.name}";
 
 ${context.nameCamelCase}(param1);
 \`\`\`

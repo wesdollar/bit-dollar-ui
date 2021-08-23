@@ -5,17 +5,18 @@ import "./font.css";
 import { colors } from "@wesdollar/dollar-ui.constants.colors";
 import { styles } from "@wesdollar/dollar-ui.constants.styles";
 import { propTypes } from "@wesdollar/dollar-ui.constants.prop-types";
+import { fontSizes } from "@wesdollar/dollar-ui.constants.font-sizes";
 
 const getFontSize = (variant) => {
   let fontSize;
 
   switch (variant) {
     case "small":
-      fontSize = "0.8rem";
+      fontSize = fontSizes.small;
       break;
 
     case "large":
-      fontSize = "1.5rem";
+      fontSize = fontSizes.large;
       break;
 
     default:

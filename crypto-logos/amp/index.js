@@ -1,1 +1,0 @@
-export { Amp } from "./amp";

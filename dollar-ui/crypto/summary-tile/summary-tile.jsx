@@ -12,8 +12,10 @@ import { Text } from "@wesdollar/dollar-ui.text.text";
 import ArrowDropUpIcon from "@material-ui/icons/ArrowDropUp";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import RemoveIcon from "@material-ui/icons/Remove";
+import { fontSizes } from "@wesdollar/dollar-ui.constants.font-sizes";
 
 const iconKey = "icon";
+const iconFontSize = fontSizes.small;
 
 const getSign = (value, type = "color") => {
   const regexPattern = /%|,/g;
@@ -58,12 +60,10 @@ const Container = styled.div`
     }
   }
 
-  .profit {
-    color: ${({ profit }) => getSign(profit)};
-  }
-
+  .profit,
   .gains {
     color: ${({ profit }) => getSign(profit)};
+    font-size: ${fontSizes.large};
   }
 `;
 
@@ -88,17 +88,17 @@ export const SummaryTile = ({
             {gains}
           </div>
         </div>
-        <Space />
+        <Space height="8px" />
         <div className="flex">
           <div className="current-value">
             <Text size="small" variant="secondary">
-              <AttachMoneyIcon style={{ fontSize: "0.8rem" }} />
+              <AttachMoneyIcon style={{ fontSize: iconFontSize }} />
               {currentValue}
             </Text>
           </div>
           <div className="total-investment">
             <Text size="small" variant="secondary">
-              <InputIcon style={{ fontSize: "0.8rem" }} />
+              <InputIcon style={{ fontSize: iconFontSize }} />
               <Space width="8px" height="0" />
               {totalInvestment}
             </Text>
