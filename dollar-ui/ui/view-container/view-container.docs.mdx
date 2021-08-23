@@ -1,0 +1,22 @@
+---
+description: "Adds appropriate padding around views."
+labels: ["ui", "wrappers"]
+---
+
+import { ViewContainer } from "./view-container";
+
+Padding defaults to `20px` on all sides. Padding prop is passed straight into the Styled Component, giving the flexibility to control all sides individually.
+
+```js
+<ViewContainer padding="20px">
+  <p>Hello</p>
+  <p>World</p>
+</ViewContainer>
+```
+
+```js live
+<ViewContainer padding="40px">
+  <p>Hello</p>
+  <p>World</p>
+</ViewContainer>
+```
