@@ -9,6 +9,12 @@
  */
 
 {
+    "action-buttons/refresh": {
+        "scope": "wesdollar.dollar-ui",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "dollar-ui/action-buttons/refresh"
+    },
     "amp": {
         "scope": "wesdollar.crypto-logos",
         "version": "0.0.1",
@@ -95,7 +101,7 @@
     },
     "ui/loading": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/loading"
     },
@@ -131,7 +137,7 @@
     },
     "views/dashboard": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/views/dashboard"
     },

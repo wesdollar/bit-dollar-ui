@@ -7,6 +7,7 @@ import { ViewContainer } from "@wesdollar/dollar-ui.ui.view-container";
 import { gutters } from "@wesdollar/dollar-ui.constants.gutters";
 import { profits } from "@wesdollar/dollar-ui.test-data.crypto.resources.profits";
 import { Loading } from "@wesdollar/dollar-ui.ui.loading";
+import { Refresh } from "@wesdollar/dollar-ui.action-buttons.refresh";
 
 export const Dashboard = ({ profitsResource, isLoading }) => {
   const [meta, setMeta] = useState();
@@ -30,6 +31,9 @@ export const Dashboard = ({ profitsResource, isLoading }) => {
         />
         <Space height={gutters.bigGutter} />
         <ListWallets profits={profits} />
+        <Space height={gutters.bigGutter} />
+        <Space height={gutters.bigGutter} />
+        <Refresh />
       </ViewContainer>
     </Loading>
   );
