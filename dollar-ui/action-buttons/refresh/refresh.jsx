@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import SyncIcon from "@material-ui/icons/Sync";
+import { Loading } from "@wesdollar/dollar-ui.ui.loading";
 
 const Container = styled.div`
   display: flex;
@@ -13,11 +14,18 @@ const Container = styled.div`
 `;
 
 export const Refresh = () => {
-  const refresh = () => location.reload();
+  const [isLoading, setIsLoading] = useState(false);
+
+  const refresh = () => {
+    setIsLoading(true);
+    location.reload();
+  };
 
   return (
-    <Container data-testid="refresh-container" onClick={refresh}>
-      <SyncIcon fontSize="large" />
-    </Container>
+    <Loading isLoading={isLoading}>
+      <Container data-testid="refresh-container" onClick={refresh}>
+        <SyncIcon fontSize="large" />
+      </Container>
+    </Loading>
   );
 };

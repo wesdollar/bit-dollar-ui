@@ -1,0 +1,30 @@
+---
+description: "Firebase GitHub OAuth2 login."
+labels: ["OAuth2", "GitHub", "authentication"]
+---
+
+import { Github } from "./github";
+
+### Usage
+
+This component leverages Google's Firebase Authenticate using a redirect to GitHub. You will need to properly setup your Firebase account before proceeding, as you'll need the config data to pass into the component.
+
+[Firebase Authenticate Using GitHub Setup](https://firebase.google.com/docs/auth/web/github-auth)
+
+The styling of this component is opinionated, but escape hatches are provided to customize the look. To override the button styling, use prop `buttonOverride` to pass in your own component as a function (not node).
+
+```js
+<Github
+  apiKey="google-auth-api-key"
+  projectId="project-id"
+  storageBucket="my-bucket.appspot.com"
+  messagingSenderId="123456789"
+  appId="1:numbers:blah:more-numbers"
+  measurementId="G-m3asurementId"
+  setAuthenticatedUser={(data) => console.log(data)}
+  setUserIsAuthenticated={(data) => console.log(data)}
+  setAuthResult={(data) => console.log(data)}
+  setAuthErrors={(data) => console.log(data)}
+  buttonOverride={MyButton} // notice this is a function and not a node
+/>
+```

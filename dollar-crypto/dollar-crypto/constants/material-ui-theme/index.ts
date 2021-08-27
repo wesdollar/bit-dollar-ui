@@ -1,0 +1,1 @@
+export { materialUiTheme } from './material-ui-theme';

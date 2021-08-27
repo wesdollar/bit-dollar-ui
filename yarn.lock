@@ -211,6 +211,385 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@firebase/analytics-types@npm:0.6.0":
+  version: 0.6.0
+  resolution: "@firebase/analytics-types@npm:0.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fanalytics-types%2F-%2Fanalytics-types-0.6.0.tgz"
+  checksum: 3065acd8de0ce6e00b11a3ee4d862adc146304ca3cacb4adf32236c4c1dc3fb257735308ae92968d5c04893e85518fc7833509f26995221f3d6f02eb3106664a
+  languageName: node
+  linkType: hard
+
+"@firebase/analytics@npm:0.6.18":
+  version: 0.6.18
+  resolution: "@firebase/analytics@npm:0.6.18::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fanalytics%2F-%2Fanalytics-0.6.18.tgz"
+  dependencies:
+    "@firebase/analytics-types": 0.6.0
+    "@firebase/component": 0.5.6
+    "@firebase/installations": 0.4.32
+    "@firebase/logger": 0.2.6
+    "@firebase/util": 1.3.0
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 488723118e18a6e0e5d5a810bea56937591734e16a1ba02b42f13d678f03ec36457671129f630aaa2407862ca22991b0fa39268b2452e0665eb7612877a510e4
+  languageName: node
+  linkType: hard
+
+"@firebase/app-check-interop-types@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@firebase/app-check-interop-types@npm:0.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fapp-check-interop-types%2F-%2Fapp-check-interop-types-0.1.0.tgz"
+  checksum: 20bf685e8b77a87ff70d704d604e1677e400ef96d09dff96b36176340fa07a8e0d775dd5b83a9bf74ae996c63f11df75de61faa2966072dd13601fb7717b622d
+  languageName: node
+  linkType: hard
+
+"@firebase/app-check-types@npm:0.3.1":
+  version: 0.3.1
+  resolution: "@firebase/app-check-types@npm:0.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fapp-check-types%2F-%2Fapp-check-types-0.3.1.tgz"
+  checksum: 78263ef5d668be580488f7fc1ca0bf8a52d766db9238df22026dfba0c13176758d60fb81152811435ad25f1b6a2e4d5d54e009b80773864ae78858b37e6375a3
+  languageName: node
+  linkType: hard
+
+"@firebase/app-check@npm:0.3.2":
+  version: 0.3.2
+  resolution: "@firebase/app-check@npm:0.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fapp-check%2F-%2Fapp-check-0.3.2.tgz"
+  dependencies:
+    "@firebase/app-check-interop-types": 0.1.0
+    "@firebase/app-check-types": 0.3.1
+    "@firebase/component": 0.5.6
+    "@firebase/logger": 0.2.6
+    "@firebase/util": 1.3.0
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 881e88c94b5c62c34c31d5c074b8941f3e890150759ecda3af8254c2ba0df69314c7d512dc9707caecf15ec5390c0dcd22e927d7d67c90327c9532fe74eb638a
+  languageName: node
+  linkType: hard
+
+"@firebase/app-types@npm:0.6.3":
+  version: 0.6.3
+  resolution: "@firebase/app-types@npm:0.6.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fapp-types%2F-%2Fapp-types-0.6.3.tgz"
+  checksum: f4523ee29ef667a68110a97275dcba43b3275264055887baca49c7f726aa5a9006f6e31ab47a24472b4a0864b8018ddf48424081a85a7558431d399ae8c3cfb1
+  languageName: node
+  linkType: hard
+
+"@firebase/app@npm:0.6.30":
+  version: 0.6.30
+  resolution: "@firebase/app@npm:0.6.30::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fapp%2F-%2Fapp-0.6.30.tgz"
+  dependencies:
+    "@firebase/app-types": 0.6.3
+    "@firebase/component": 0.5.6
+    "@firebase/logger": 0.2.6
+    "@firebase/util": 1.3.0
+    dom-storage: 2.1.0
+    tslib: ^2.1.0
+    xmlhttprequest: 1.8.0
+  checksum: 37578664edd4f68e478519d1fab0ffdaf6f82adf8a84183692bb32907f76fc70dba36c5f0c0b17ba30cee44a0fd260c0fa89fd33b4b8c2b71b7150020c0bd1bb
+  languageName: node
+  linkType: hard
+
+"@firebase/auth-interop-types@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@firebase/auth-interop-types@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fauth-interop-types%2F-%2Fauth-interop-types-0.1.6.tgz"
+  peerDependencies:
+    "@firebase/app-types": 0.x
+    "@firebase/util": 1.x
+  checksum: 25db353581b23605c3e26a1ae5d070c2bfcb3c79752729c4e3f6280c81662723e9c4ef6edda82c6fd5dc79e124181a4aa649fcfd12b007e886e1d8efebc04910
+  languageName: node
+  linkType: hard
+
+"@firebase/auth-types@npm:0.10.3":
+  version: 0.10.3
+  resolution: "@firebase/auth-types@npm:0.10.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fauth-types%2F-%2Fauth-types-0.10.3.tgz"
+  peerDependencies:
+    "@firebase/app-types": 0.x
+    "@firebase/util": 1.x
+  checksum: 08b4faf7f6612e29f740f41ed8bf0a9f9731448f6b3c2cf1fe4265e1d4f354dd0c3f4654b79aa4853b74be4c71736173c7ef669c665582ffd198200a9e39b5d6
+  languageName: node
+  linkType: hard
+
+"@firebase/auth@npm:0.16.8":
+  version: 0.16.8
+  resolution: "@firebase/auth@npm:0.16.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fauth%2F-%2Fauth-0.16.8.tgz"
+  dependencies:
+    "@firebase/auth-types": 0.10.3
+  peerDependencies:
+    "@firebase/app": 0.x
+  checksum: 1c734957204ec781de5c453275166ed63d9a7517830581affc274cbbf6918ab75d287c8baccba959a433414203d45b7c55f6b735f378f5238c0250e84719ad06
+  languageName: node
+  linkType: hard
+
+"@firebase/component@npm:0.5.6":
+  version: 0.5.6
+  resolution: "@firebase/component@npm:0.5.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fcomponent%2F-%2Fcomponent-0.5.6.tgz"
+  dependencies:
+    "@firebase/util": 1.3.0
+    tslib: ^2.1.0
+  checksum: 53ea07ba4fa4876ecabccff49c19dc6476bb3020c6ff8ca3d8401c5aebb48066811681878663e3e98bd6fbe727fde91a16a1da2d4e226c73be5d6cf5657ed9d7
+  languageName: node
+  linkType: hard
+
+"@firebase/database-types@npm:0.8.0":
+  version: 0.8.0
+  resolution: "@firebase/database-types@npm:0.8.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fdatabase-types%2F-%2Fdatabase-types-0.8.0.tgz"
+  dependencies:
+    "@firebase/app-types": 0.6.3
+    "@firebase/util": 1.3.0
+  checksum: b2536dc66e90fba7464d82535e7cbf3a3504d791b17f8d0578ef708ccd59a78fc13e9563996aaa560dea31dae7f2220751742a6143b6ee862985a62f597d4caf
+  languageName: node
+  linkType: hard
+
+"@firebase/database@npm:0.11.0":
+  version: 0.11.0
+  resolution: "@firebase/database@npm:0.11.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fdatabase%2F-%2Fdatabase-0.11.0.tgz"
+  dependencies:
+    "@firebase/auth-interop-types": 0.1.6
+    "@firebase/component": 0.5.6
+    "@firebase/database-types": 0.8.0
+    "@firebase/logger": 0.2.6
+    "@firebase/util": 1.3.0
+    faye-websocket: 0.11.3
+    tslib: ^2.1.0
+  checksum: 0d16da1ce7036e0e07d905560e6223eb9eaf6fa1d5b2b1d70f65a98cd59f25d461d17cb140ca95d7fd134be1d1274f5724181292ecbde9df5209194469a22fe2
+  languageName: node
+  linkType: hard
+
+"@firebase/firestore-types@npm:2.4.0":
+  version: 2.4.0
+  resolution: "@firebase/firestore-types@npm:2.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Ffirestore-types%2F-%2Ffirestore-types-2.4.0.tgz"
+  peerDependencies:
+    "@firebase/app-types": 0.x
+    "@firebase/util": 1.x
+  checksum: be62b8cca8021df7f383b92c329317e4b80fbc5388991448343aea50788e9dcd43166c978ccd336107b946818a75378819fc976461a40e455c68574048e52726
+  languageName: node
+  linkType: hard
+
+"@firebase/firestore@npm:2.4.0":
+  version: 2.4.0
+  resolution: "@firebase/firestore@npm:2.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Ffirestore%2F-%2Ffirestore-2.4.0.tgz"
+  dependencies:
+    "@firebase/component": 0.5.6
+    "@firebase/firestore-types": 2.4.0
+    "@firebase/logger": 0.2.6
+    "@firebase/util": 1.3.0
+    "@firebase/webchannel-wrapper": 0.5.1
+    "@grpc/grpc-js": ^1.3.2
+    "@grpc/proto-loader": ^0.6.0
+    node-fetch: 2.6.1
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 950693b133d37e285ad346accf2dd341bb767146bade50c5d1e213057e4c75ef25fc4bbebe7f3141ec0dee7b3d4d84f731a647d682e6668f53e9915605e40e65
+  languageName: node
+  linkType: hard
+
+"@firebase/functions-types@npm:0.4.0":
+  version: 0.4.0
+  resolution: "@firebase/functions-types@npm:0.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Ffunctions-types%2F-%2Ffunctions-types-0.4.0.tgz"
+  checksum: 4f78409675728ce0f0c22b560015867f7f57de4acbe7fcae78ce87717a936fef842cfe812c4a15c947b88cc1c6424b7e75f7d0b97a696db13c87f4f40a465eda
+  languageName: node
+  linkType: hard
+
+"@firebase/functions@npm:0.6.15":
+  version: 0.6.15
+  resolution: "@firebase/functions@npm:0.6.15::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Ffunctions%2F-%2Ffunctions-0.6.15.tgz"
+  dependencies:
+    "@firebase/component": 0.5.6
+    "@firebase/functions-types": 0.4.0
+    "@firebase/messaging-types": 0.5.0
+    node-fetch: 2.6.1
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 1d2dedaccc88ebd96ff3562737b4fa9f0dd814c17cd703c2a7ef0b63024139ea14d95ad9aae6ae61a7b87c8f0fb27666a8165d8fe7cbcbdbf200feecd84906cc
+  languageName: node
+  linkType: hard
+
+"@firebase/installations-types@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@firebase/installations-types@npm:0.3.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Finstallations-types%2F-%2Finstallations-types-0.3.4.tgz"
+  peerDependencies:
+    "@firebase/app-types": 0.x
+  checksum: 34fe46ecfef814837d4545bea600674bb5e995fbaca026623a3b5feb955f013d1e5de605fcce9076821995b8d7f566832b05ad4429fc0194d4f947c91b5d53c2
+  languageName: node
+  linkType: hard
+
+"@firebase/installations@npm:0.4.32":
+  version: 0.4.32
+  resolution: "@firebase/installations@npm:0.4.32::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Finstallations%2F-%2Finstallations-0.4.32.tgz"
+  dependencies:
+    "@firebase/component": 0.5.6
+    "@firebase/installations-types": 0.3.4
+    "@firebase/util": 1.3.0
+    idb: 3.0.2
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 6a194dd535b01886a6a118adfcee661e33adf35c3466926fc5e963fb716e57763407f51a7c091af96cba32aeca6aab199800f40e68614e2f24ab344a4fe4199c
+  languageName: node
+  linkType: hard
+
+"@firebase/logger@npm:0.2.6":
+  version: 0.2.6
+  resolution: "@firebase/logger@npm:0.2.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Flogger%2F-%2Flogger-0.2.6.tgz"
+  checksum: 459d6d367a07423e7e2d6a46f9ed60a94d7d6602603d2d5454ac141e19857db11bf19b6c349331d68803be7288696491f7c5efda8fbb00612bdeda48c96aa141
+  languageName: node
+  linkType: hard
+
+"@firebase/messaging-types@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@firebase/messaging-types@npm:0.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fmessaging-types%2F-%2Fmessaging-types-0.5.0.tgz"
+  peerDependencies:
+    "@firebase/app-types": 0.x
+  checksum: 3bfcdfb5e635239103f1a9bae6674c1a02031966920ace6fe06cf4eefa498e588ca4b523036fd405e485dd824ebfa41f7ec1a9037cfb676c96be50912f500634
+  languageName: node
+  linkType: hard
+
+"@firebase/messaging@npm:0.8.0":
+  version: 0.8.0
+  resolution: "@firebase/messaging@npm:0.8.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fmessaging%2F-%2Fmessaging-0.8.0.tgz"
+  dependencies:
+    "@firebase/component": 0.5.6
+    "@firebase/installations": 0.4.32
+    "@firebase/messaging-types": 0.5.0
+    "@firebase/util": 1.3.0
+    idb: 3.0.2
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 5b45da030edf9d1b30ceb45e1fef4896260cdd16a3af3ec1cfd4f4935c4794a20034d81bf194b25c1e6c5798688a2829a41646a2b8ca02c5146886dd3741b5b6
+  languageName: node
+  linkType: hard
+
+"@firebase/performance-types@npm:0.0.13":
+  version: 0.0.13
+  resolution: "@firebase/performance-types@npm:0.0.13::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fperformance-types%2F-%2Fperformance-types-0.0.13.tgz"
+  checksum: 1bc0cbbfa1905fc9f5d45a24b1555b0fda1f058737023de5f984e91a84f8d8134ce460124978a06467b50713e23af159b7dcf3b29bdaa03b4374e94c4f6d484b
+  languageName: node
+  linkType: hard
+
+"@firebase/performance@npm:0.4.18":
+  version: 0.4.18
+  resolution: "@firebase/performance@npm:0.4.18::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fperformance%2F-%2Fperformance-0.4.18.tgz"
+  dependencies:
+    "@firebase/component": 0.5.6
+    "@firebase/installations": 0.4.32
+    "@firebase/logger": 0.2.6
+    "@firebase/performance-types": 0.0.13
+    "@firebase/util": 1.3.0
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 23c112a8b0a294f0916619a4907ea2c74fd8d5a2868f69308d30ab2075f46bde2d7d6a792583c3dc42e0396157c201ce643ca50027a86c4f7a2cdef0f602f6b2
+  languageName: node
+  linkType: hard
+
+"@firebase/polyfill@npm:0.3.36":
+  version: 0.3.36
+  resolution: "@firebase/polyfill@npm:0.3.36::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fpolyfill%2F-%2Fpolyfill-0.3.36.tgz"
+  dependencies:
+    core-js: 3.6.5
+    promise-polyfill: 8.1.3
+    whatwg-fetch: 2.0.4
+  checksum: 530904e8871c724dfef46eb2f613cb59c45cbb2a0afb31a9803c03146185200bc2ad9a1debec34a2635f0c26fe02ead0086522200f6aa2941d0c10be69f7a04d
+  languageName: node
+  linkType: hard
+
+"@firebase/remote-config-types@npm:0.1.9":
+  version: 0.1.9
+  resolution: "@firebase/remote-config-types@npm:0.1.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fremote-config-types%2F-%2Fremote-config-types-0.1.9.tgz"
+  checksum: 6783c5072cec80a444b9ce6e4b3c4e6230d3d717405d251495327a21c97206cdeffca55ba2521b683d92beee5ac5c3c09db6f4bcdca6631257eb74eab493a3d0
+  languageName: node
+  linkType: hard
+
+"@firebase/remote-config@npm:0.1.43":
+  version: 0.1.43
+  resolution: "@firebase/remote-config@npm:0.1.43::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fremote-config%2F-%2Fremote-config-0.1.43.tgz"
+  dependencies:
+    "@firebase/component": 0.5.6
+    "@firebase/installations": 0.4.32
+    "@firebase/logger": 0.2.6
+    "@firebase/remote-config-types": 0.1.9
+    "@firebase/util": 1.3.0
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 05a099b057a8993791dcbd0895e1c17c28df17b0662ebfbfb2966b79b90ac6b0793d041ac2cab1746e2e313bb2566098e1239ad412bb79b278b37d12c06ccd4a
+  languageName: node
+  linkType: hard
+
+"@firebase/storage-types@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@firebase/storage-types@npm:0.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fstorage-types%2F-%2Fstorage-types-0.5.0.tgz"
+  peerDependencies:
+    "@firebase/app-types": 0.x
+    "@firebase/util": 1.x
+  checksum: f66fb23a09044d95531a2536def98d3f497998429d4ba37c1059cf9447521bb9211a030880a3d599f59e68ac2585dc9f992797dee3cd2ee76f41f1520c5defb5
+  languageName: node
+  linkType: hard
+
+"@firebase/storage@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@firebase/storage@npm:0.7.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fstorage%2F-%2Fstorage-0.7.0.tgz"
+  dependencies:
+    "@firebase/component": 0.5.6
+    "@firebase/storage-types": 0.5.0
+    "@firebase/util": 1.3.0
+    node-fetch: 2.6.1
+    tslib: ^2.1.0
+  peerDependencies:
+    "@firebase/app": 0.x
+    "@firebase/app-types": 0.x
+  checksum: 738e8137ccda4179bc0be737d7b0949149b8b71004396899df32be2a5b3ad4e67d52a92fd3fcf833b865554bf3f47375a3070c43f40f9009adb4856cc83678d4
+  languageName: node
+  linkType: hard
+
+"@firebase/util@npm:1.3.0":
+  version: 1.3.0
+  resolution: "@firebase/util@npm:1.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Futil%2F-%2Futil-1.3.0.tgz"
+  dependencies:
+    tslib: ^2.1.0
+  checksum: 9dcaac1532268c9ccd0d6bf2fc77b2575d8d4660a21f0b64fd105a423f8192c7084798a77211f66a25718afd1d0870430066b366b5c62539e3a9315839e46fcb
+  languageName: node
+  linkType: hard
+
+"@firebase/webchannel-wrapper@npm:0.5.1":
+  version: 0.5.1
+  resolution: "@firebase/webchannel-wrapper@npm:0.5.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40firebase%2Fwebchannel-wrapper%2F-%2Fwebchannel-wrapper-0.5.1.tgz"
+  checksum: ed28c5c49a8fef9747387b5914e3c408081af1c3367d1d0cc7f7f6b99d366deb7e155f71b1bdfca4e97002ef7cb1795f1b40f6626b7a508205d60636e5d91f3b
+  languageName: node
+  linkType: hard
+
+"@grpc/grpc-js@npm:^1.3.2":
+  version: 1.3.7
+  resolution: "@grpc/grpc-js@npm:1.3.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40grpc%2Fgrpc-js%2F-%2Fgrpc-js-1.3.7.tgz"
+  dependencies:
+    "@types/node": ">=12.12.47"
+  checksum: 8d02972968afd4c54aaa6acc47d1601c73adc03829370fe4ced6b98679ee0b8cd10bcaa3e1d4d35f4eccdbd5f3e10304a10ef0006798b560226da5979dc84899
+  languageName: node
+  linkType: hard
+
+"@grpc/proto-loader@npm:^0.6.0":
+  version: 0.6.4
+  resolution: "@grpc/proto-loader@npm:0.6.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40grpc%2Fproto-loader%2F-%2Fproto-loader-0.6.4.tgz"
+  dependencies:
+    "@types/long": ^4.0.1
+    lodash.camelcase: ^4.3.0
+    long: ^4.0.0
+    protobufjs: ^6.10.0
+    yargs: ^16.1.1
+  bin:
+    proto-loader-gen-types: build/bin/proto-loader-gen-types.js
+  checksum: 20c23f215cc3cbc25f16a6f90e5e25617419003c430c8e06608c26b53e108b23716387a43ea2a43f37b1135a31be35be97357922d68beb682ac5afed919eebf9
+  languageName: node
+  linkType: hard
+
 "@hypnosphi/create-react-context@npm:^0.3.1":
   version: 0.3.1
   resolution: "@hypnosphi/create-react-context@npm:0.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40hypnosphi%2Fcreate-react-context%2F-%2Fcreate-react-context-0.3.1.tgz"
@@ -380,6 +759,79 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: 30e15b197c52bb607ba2f00293acbda66388427560e30f5dd82714dee69f565cf0896baa98f869b191a881e14e0df08155fd9d598b356ac2262b8e60e43a5499
+  languageName: node
+  linkType: hard
+
+"@protobufjs/aspromise@npm:^1.1.1, @protobufjs/aspromise@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@protobufjs/aspromise@npm:1.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Faspromise%2F-%2Faspromise-1.1.2.tgz"
+  checksum: 011fe7ef0826b0fd1a95935a033a3c0fd08483903e1aa8f8b4e0704e3233406abb9ee25350ec0c20bbecb2aad8da0dcea58b392bbd77d6690736f02c143865d2
+  languageName: node
+  linkType: hard
+
+"@protobufjs/base64@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@protobufjs/base64@npm:1.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Fbase64%2F-%2Fbase64-1.1.2.tgz"
+  checksum: 67173ac34de1e242c55da52c2f5bdc65505d82453893f9b51dc74af9fe4c065cf4a657a4538e91b0d4a1a1e0a0642215e31894c31650ff6e3831471061e1ee9e
+  languageName: node
+  linkType: hard
+
+"@protobufjs/codegen@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "@protobufjs/codegen@npm:2.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Fcodegen%2F-%2Fcodegen-2.0.4.tgz"
+  checksum: 59240c850b1d3d0b56d8f8098dd04787dcaec5c5bd8de186fa548de86b86076e1c50e80144b90335e705a044edf5bc8b0998548474c2a10a98c7e004a1547e4b
+  languageName: node
+  linkType: hard
+
+"@protobufjs/eventemitter@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@protobufjs/eventemitter@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Feventemitter%2F-%2Feventemitter-1.1.0.tgz"
+  checksum: 0369163a3d226851682f855f81413cbf166cd98f131edb94a0f67f79e75342d86e89df9d7a1df08ac28be2bc77e0a7f0200526bb6c2a407abbfee1f0262d5fd7
+  languageName: node
+  linkType: hard
+
+"@protobufjs/fetch@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@protobufjs/fetch@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Ffetch%2F-%2Ffetch-1.1.0.tgz"
+  dependencies:
+    "@protobufjs/aspromise": ^1.1.1
+    "@protobufjs/inquire": ^1.1.0
+  checksum: 3fce7e09eb3f1171dd55a192066450f65324fd5f7cc01a431df01bb00d0a895e6bfb5b0c5561ce157ee1d886349c90703d10a4e11a1a256418ff591b969b3477
+  languageName: node
+  linkType: hard
+
+"@protobufjs/float@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@protobufjs/float@npm:1.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Ffloat%2F-%2Ffloat-1.0.2.tgz"
+  checksum: 5781e1241270b8bd1591d324ca9e3a3128d2f768077a446187a049e36505e91bc4156ed5ac3159c3ce3d2ba3743dbc757b051b2d723eea9cd367bfd54ab29b2f
+  languageName: node
+  linkType: hard
+
+"@protobufjs/inquire@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@protobufjs/inquire@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Finquire%2F-%2Finquire-1.1.0.tgz"
+  checksum: ca06f02eaf65ca36fb7498fc3492b7fc087bfcc85c702bac5b86fad34b692bdce4990e0ef444c1e2aea8c034227bd1f0484be02810d5d7e931c55445555646f4
+  languageName: node
+  linkType: hard
+
+"@protobufjs/path@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@protobufjs/path@npm:1.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Fpath%2F-%2Fpath-1.1.2.tgz"
+  checksum: 856eeb532b16a7aac071cacde5c5620df800db4c80cee6dbc56380524736205aae21e5ae47739114bf669ab5e8ba0e767a282ad894f3b5e124197cb9224445ee
+  languageName: node
+  linkType: hard
+
+"@protobufjs/pool@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@protobufjs/pool@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Fpool%2F-%2Fpool-1.1.0.tgz"
+  checksum: d6a34fbbd24f729e2a10ee915b74e1d77d52214de626b921b2d77288bd8f2386808da2315080f2905761527cceffe7ec34c7647bd21a5ae41a25e8212ff79451
+  languageName: node
+  linkType: hard
+
+"@protobufjs/utf8@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@protobufjs/utf8@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40protobufjs%2Futf8%2F-%2Futf8-1.1.0.tgz"
+  checksum: f9bf3163d13aaa3b6f5e6fbf37a116e094ea021c0e1f2a7ccd0e12a29e2ce08dafba4e8b36e13f8ed7397e1591610ce880ed1289af4d66cf4ace8a36a9557278
   languageName: node
   linkType: hard
 
@@ -759,7 +1211,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/long@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@types/long@npm:4.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Flong%2F-%2Flong-4.0.1.tgz"
+  checksum: ff9653c33f5000d0f131fd98a950a0343e2e33107dd067a97ac4a3b9678e1a2e39ea44772ad920f54ef6e8f107f76bc92c2584ba905a0dc4253282a4101166d0
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:*, @types/node@npm:>=12.12.47, @types/node@npm:>=13.7.0":
   version: 16.7.1
   resolution: "@types/node@npm:16.7.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fnode%2F-%2Fnode-16.7.1.tgz"
   checksum: fcf1a2c7b1f19c2201574b2110176b49c6efd824a39b2ed8ac3e6688740e2a35bef95a3334dfa345f4bd4873fd8b79d8ac8cfcc9fcd3d2f4f8f993c2c37ce4ab
@@ -850,6 +1309,61 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wesdollar/dollar-crypto.dollar-crypto.constants.colors@npm:0.0.1":
+  version: 0.0.1
+  resolution: "@wesdollar/dollar-crypto.dollar-crypto.constants.colors@npm:0.0.1::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40wesdollar%2Fdollar-crypto.dollar-crypto.constants.colors%2F-%2F%40wesdollar-dollar-crypto.dollar-crypto.constants.colors-0.0.1.tgz"
+  dependencies:
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 9a554e39eba135b281b075e251892faa978f63ce4ec753a642a44b87325602610ac56376d855589960b25fd2a17bd71dfcec34b5923bb16bacac0c01e451952c
+  languageName: node
+  linkType: hard
+
+"@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button@npm:0.0.1::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40wesdollar%2Fdollar-crypto.dollar-crypto.ui.buttons.button%2F-%2F%40wesdollar-dollar-crypto.dollar-crypto.ui.buttons.button-0.0.1.tgz"
+  dependencies:
+    "@wesdollar/dollar-crypto.dollar-crypto.constants.colors": 0.0.1
+    "@wesdollar/dollar-ui.constants.prop-types": 0.0.1
+    "@wesdollar/dollar-ui.ui.buttons.button": 0.0.4
+    core-js: ^3.0.0
+    prop-types: 15.7.2
+    styled-components: 5.3.0
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 1e2e1921e1342b06d297e0cd3b16b4e56874c28fbfe8d4d68f1379c01152f9bc89b21d64ac21b8688b6e4c22960839fe8681f4a5b45a15e4bd53049804d92a6b
+  languageName: node
+  linkType: hard
+
+"@wesdollar/dollar-ui.constants.prop-types@npm:0.0.1":
+  version: 0.0.1
+  resolution: "@wesdollar/dollar-ui.constants.prop-types@npm:0.0.1::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40wesdollar%2Fdollar-ui.constants.prop-types%2F-%2F%40wesdollar-dollar-ui.constants.prop-types-0.0.1.tgz"
+  dependencies:
+    prop-types: 15.7.2
+  checksum: 5122fd7ea5a44f152d8a9efe51a7e1b2b9cf0e750a20762501ee6f697e683d12bfa51467f5867c33901e10ac54a0c60d0a7b61520ee418ddf37362afaaa70a8e
+  languageName: node
+  linkType: hard
+
+"@wesdollar/dollar-ui.ui.buttons.button@npm:0.0.4":
+  version: 0.0.4
+  resolution: "@wesdollar/dollar-ui.ui.buttons.button@npm:0.0.4::__archiveUrl=https%3A%2F%2Fnode.bit.dev%2F%40wesdollar%2Fdollar-ui.ui.buttons.button%2F-%2F%40wesdollar-dollar-ui.ui.buttons.button-0.0.4.tgz"
+  dependencies:
+    "@material-ui/core": 4.12.2
+    "@wesdollar/dollar-ui.constants.prop-types": 0.0.1
+    core-js: ^3.0.0
+    prop-types: 15.7.2
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 21c60e58801b1055dda61eefa04b45ff128302f173d99d636207d61a499f5402a1a8ac2a66242f9f0c4f9f24183cc7840f5a7974435dd42c110ffcda29436aca
+  languageName: node
+  linkType: hard
+
 "amp-b41105@workspace:crypto-logos/amp":
   version: 0.0.0-use.local
   resolution: "amp-b41105@workspace:crypto-logos/amp"
@@ -932,10 +1446,30 @@ __metadata:
 
 "bignumber.js@npm:^8.1.1":
   version: 8.1.1
-  resolution: "bignumber.js@npm:8.1.1"
+  resolution: "bignumber.js@npm:8.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbignumber.js%2F-%2Fbignumber.js-8.1.1.tgz"
   checksum: 71544348507cd16c2c152699a8e5146964d9cf4f46108075bcd16a964dffb3963256259fc6ffc9753b4d33dfd0cf863a6b564103a3a20e10002f12a1902e8075
   languageName: node
   linkType: hard
+
+"button-4764e3@workspace:dollar-ui/ui/buttons/button":
+  version: 0.0.0-use.local
+  resolution: "button-4764e3@workspace:dollar-ui/ui/buttons/button"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"button-fdf45f@workspace:dollar-crypto/dollar-crypto/ui/buttons/button":
+  version: 0.0.0-use.local
+  resolution: "button-fdf45f@workspace:dollar-crypto/dollar-crypto/ui/buttons/button"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "call-bind@npm:^1.0.2":
   version: 1.0.2
@@ -1010,6 +1544,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cliui@npm:^7.0.2":
+  version: 7.0.4
+  resolution: "cliui@npm:7.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcliui%2F-%2Fcliui-7.0.4.tgz"
+  dependencies:
+    string-width: ^4.2.0
+    strip-ansi: ^6.0.0
+    wrap-ansi: ^7.0.0
+  checksum: ce2e8f578a4813806788ac399b9e866297740eecd4ad1823c27fd344d78b22c5f8597d548adbcc46f0573e43e21e751f39446c5a5e804a12aace402b7a315d7f
+  languageName: node
+  linkType: hard
+
 "clsx@npm:^1.0.4":
   version: 1.1.1
   resolution: "clsx@npm:1.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fclsx%2F-%2Fclsx-1.1.1.tgz"
@@ -1049,6 +1594,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"colors-6f3aad@workspace:dollar-crypto/dollar-crypto/constants/colors":
+  version: 0.0.0-use.local
+  resolution: "colors-6f3aad@workspace:dollar-crypto/dollar-crypto/constants/colors"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "colors-ef9dcc@workspace:dollar-ui/constants/colors":
   version: 0.0.0-use.local
   resolution: "colors-ef9dcc@workspace:dollar-ui/constants/colors"
@@ -1077,16 +1631,23 @@ __metadata:
   linkType: hard
 
 "core-js-pure@npm:^3.16.0":
-  version: 3.16.2
-  resolution: "core-js-pure@npm:3.16.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js-pure%2F-%2Fcore-js-pure-3.16.2.tgz"
-  checksum: e44acd945b78f6faf96f38059a5347eb236eaae9b2fa897e58f52b12b64e5233c2b1243e953b828ddec62c215c5f911ac2d3c9276974ded1c04331961d877869
+  version: 3.16.3
+  resolution: "core-js-pure@npm:3.16.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js-pure%2F-%2Fcore-js-pure-3.16.3.tgz"
+  checksum: 15be550ffb1eed2a60c9e4ac72620ccf66c11da696597cdcbc4ad874d70fd2c5a1bfe40fea8ce09fb3ee2d8efcfd98de1bf8404209a170f769d9a4f309644197
+  languageName: node
+  linkType: hard
+
+"core-js@npm:3.6.5":
+  version: 3.6.5
+  resolution: "core-js@npm:3.6.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js%2F-%2Fcore-js-3.6.5.tgz"
+  checksum: b7fcf92f888bfe40f3f005e3f729e66aa49a3a9a797e8fb4d09d429c6abcd505781b2c03836858f0dc0159249d4b7a035fc763052c9c34adbc93b6f8a6a86305
   languageName: node
   linkType: hard
 
 "core-js@npm:^3.0.0":
-  version: 3.16.2
-  resolution: "core-js@npm:3.16.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js%2F-%2Fcore-js-3.16.2.tgz"
-  checksum: f48b988ab6d144aad1a7c09a73174946f797ec050b4566dee9bf0227560296cdd0f714b37f0ee065303eccf0e7fb8115ccca52ab3e80db12e0dcc20a88219483
+  version: 3.16.3
+  resolution: "core-js@npm:3.16.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcore-js%2F-%2Fcore-js-3.16.3.tgz"
+  checksum: f44f73655b3e24a8b0c66d2cdf71549c07d90d63548081bb869e09661f57c5f68b84adf3a169023bda1861f0561159b75acc6d533e5e96fca4f24e88634276ff
   languageName: node
   linkType: hard
 
@@ -1240,6 +1801,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-storage@npm:2.1.0":
+  version: 2.1.0
+  resolution: "dom-storage@npm:2.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-storage%2F-%2Fdom-storage-2.1.0.tgz"
+  checksum: b17f9f9a1325b720b5cec9953f82624f57f12ae92bf9c03c413e668d9e1713cdc414058d52ee63e258c0a8673d7e9f6031d99d81b3f334b8c4c192e286990fd5
+  languageName: node
+  linkType: hard
+
+"emoji-regex@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "emoji-regex@npm:8.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Femoji-regex%2F-%2Femoji-regex-8.0.0.tgz"
+  checksum: d4c5c39d5a9868b5fa152f00cada8a936868fd3367f33f71be515ecee4c803132d11b31a6222b2571b1e5f7e13890156a94880345594d0ce7e3c9895f560f192
+  languageName: node
+  linkType: hard
+
+"escalade@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "escalade@npm:3.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fescalade%2F-%2Fescalade-3.1.1.tgz"
+  checksum: a3e2a99f07acb74b3ad4989c48ca0c3140f69f923e56d0cba0526240ee470b91010f9d39001f2a4a313841d237ede70a729e92125191ba5d21e74b106800b133
+  languageName: node
+  linkType: hard
+
 "escape-string-regexp@npm:^1.0.5":
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fescape-string-regexp%2F-%2Fescape-string-regexp-1.0.5.tgz"
@@ -1266,6 +1848,38 @@ __metadata:
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
   linkType: soft
+
+"faye-websocket@npm:0.11.3":
+  version: 0.11.3
+  resolution: "faye-websocket@npm:0.11.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffaye-websocket%2F-%2Ffaye-websocket-0.11.3.tgz"
+  dependencies:
+    websocket-driver: ">=0.5.1"
+  checksum: d7b2d68546812ea24e3079bd1e08bf1d79cd6d6137bfcea565d1cb1f6a5fc8fc29b689df2c1aff8b8b291d60fc808e1b27aa2896b86ba77ded10f1d9734c8e9f
+  languageName: node
+  linkType: hard
+
+"firebase@npm:8.10.0":
+  version: 8.10.0
+  resolution: "firebase@npm:8.10.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ffirebase%2F-%2Ffirebase-8.10.0.tgz"
+  dependencies:
+    "@firebase/analytics": 0.6.18
+    "@firebase/app": 0.6.30
+    "@firebase/app-check": 0.3.2
+    "@firebase/app-types": 0.6.3
+    "@firebase/auth": 0.16.8
+    "@firebase/database": 0.11.0
+    "@firebase/firestore": 2.4.0
+    "@firebase/functions": 0.6.15
+    "@firebase/installations": 0.4.32
+    "@firebase/messaging": 0.8.0
+    "@firebase/performance": 0.4.18
+    "@firebase/polyfill": 0.3.36
+    "@firebase/remote-config": 0.1.43
+    "@firebase/storage": 0.7.0
+    "@firebase/util": 1.3.0
+  checksum: 743e5e2d6d3afa0e2e08f4933d52efeb3c476094de6c99edef681151008977907d2d80f3b39123af98d234c080dd2d13a67ebccb16840b861a7f590d947c0ad2
+  languageName: node
+  linkType: hard
 
 "font-sizes-21d58a@workspace:dollar-ui/constants/font-sizes":
   version: 0.0.0-use.local
@@ -1307,6 +1921,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"get-caller-file@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "get-caller-file@npm:2.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fget-caller-file%2F-%2Fget-caller-file-2.0.5.tgz"
+  checksum: b9769a836d2a98c3ee734a88ba712e62703f1df31b94b784762c433c27a386dd6029ff55c2a920c392e33657d80191edbf18c61487e198844844516f843496b9
+  languageName: node
+  linkType: hard
+
 "get-intrinsic@npm:^1.0.2":
   version: 1.1.1
   resolution: "get-intrinsic@npm:1.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fget-intrinsic%2F-%2Fget-intrinsic-1.1.1.tgz"
@@ -1317,6 +1938,15 @@ __metadata:
   checksum: a9fe2ca8fa3f07f9b0d30fb202bcd01f3d9b9b6b732452e79c48e79f7d6d8d003af3f9e38514250e3553fdc83c61650851cb6870832ac89deaaceb08e3721a17
   languageName: node
   linkType: hard
+
+"github-037233@workspace:dollar-ui/auth/github":
+  version: 0.0.0-use.local
+  resolution: "github-037233@workspace:dollar-ui/auth/github"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "globals@npm:^11.1.0":
   version: 11.12.0
@@ -1409,10 +2039,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"http-parser-js@npm:>=0.5.1":
+  version: 0.5.3
+  resolution: "http-parser-js@npm:0.5.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhttp-parser-js%2F-%2Fhttp-parser-js-0.5.3.tgz"
+  checksum: 6f3142c5f60ad995a6895a1dc4f70f8cef0910745366e97cbcb99caa604590dbcc11006b00989ad306837d6b820e9bfc6e801c4060ed19a0e4df83caa8577cb5
+  languageName: node
+  linkType: hard
+
 "hyphenate-style-name@npm:^1.0.3":
   version: 1.0.4
   resolution: "hyphenate-style-name@npm:1.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhyphenate-style-name%2F-%2Fhyphenate-style-name-1.0.4.tgz"
   checksum: 4f5bf4b055089754924babebaa23c17845937bcca6aee95d5d015f8fa1e6814279002bd6a9e541e3fac2cd02519fc76305396727066c57c8e21a7e73e7a12137
+  languageName: node
+  linkType: hard
+
+"idb@npm:3.0.2":
+  version: 3.0.2
+  resolution: "idb@npm:3.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fidb%2F-%2Fidb-3.0.2.tgz"
+  checksum: 7b4fa656c0d523660834cb1fc3485dc20a3f5795e3f7cb21ffd847876afab87e4b666858514cb168effd206ba8ca86db2df965748519dad679ad1e23915845e0
   languageName: node
   linkType: hard
 
@@ -1432,6 +2076,13 @@ __metadata:
   dependencies:
     has-tostringtag: ^1.0.0
   checksum: baa9077cdf15eb7b58c79398604ca57379b2fc4cf9aa7a9b9e295278648f628c9b201400c01c5e0f7afae56507d741185730307cbe7cad3b9f90a77e5ee342fc
+  languageName: node
+  linkType: hard
+
+"is-fullwidth-code-point@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "is-fullwidth-code-point@npm:3.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fis-fullwidth-code-point%2F-%2Fis-fullwidth-code-point-3.0.0.tgz"
+  checksum: 44a30c29457c7fb8f00297bce733f0a64cd22eca270f83e58c105e0d015e45c019491a4ab2faef91ab51d4738c670daff901c799f6a700e27f7314029e99e348
   languageName: node
   linkType: hard
 
@@ -1624,10 +2275,34 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"lodash.camelcase@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "lodash.camelcase@npm:4.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.camelcase%2F-%2Flodash.camelcase-4.3.0.tgz"
+  checksum: cb9227612f71b83e42de93eccf1232feeb25e705bdb19ba26c04f91e885bfd3dd5c517c4a97137658190581d3493ea3973072ca010aab7e301046d90740393d1
+  languageName: node
+  linkType: hard
+
 "lodash@npm:4.17.21, lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.20":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flodash%2F-%2Flodash-4.17.21.tgz"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
+  languageName: node
+  linkType: hard
+
+"logo-png-md-43df9f@workspace:dollar-crypto/logo/logo-png-md":
+  version: 0.0.0-use.local
+  resolution: "logo-png-md-43df9f@workspace:dollar-crypto/logo/logo-png-md"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"long@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "long@npm:4.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flong%2F-%2Flong-4.0.0.tgz"
+  checksum: 16afbe8f749c7c849db1f4de4e2e6a31ac6e617cead3bdc4f9605cb703cd20e1e9fc1a7baba674ffcca57d660a6e5b53a9e236d7b25a295d3855cca79cc06744
   languageName: node
   linkType: hard
 
@@ -1665,6 +2340,13 @@ __metadata:
   version: 2.1.2
   resolution: "ms@npm:2.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-2.1.2.tgz"
   checksum: 673cdb2c3133eb050c745908d8ce632ed2c02d85640e2edb3ace856a2266a813b30c613569bf3354fdf4ea7d1a1494add3bfa95e2713baa27d0c2c71fc44f58f
+  languageName: node
+  linkType: hard
+
+"node-fetch@npm:2.6.1":
+  version: 2.6.1
+  resolution: "node-fetch@npm:2.6.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-fetch%2F-%2Fnode-fetch-2.6.1.tgz"
+  checksum: 91075bedd57879117e310fbcc36983ad5d699e522edb1ebcdc4ee5294c982843982652925c3532729fdc86b2d64a8a827797a745f332040d91823c8752ee4d7c
   languageName: node
   linkType: hard
 
@@ -1790,6 +2472,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"promise-polyfill@npm:8.1.3":
+  version: 8.1.3
+  resolution: "promise-polyfill@npm:8.1.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpromise-polyfill%2F-%2Fpromise-polyfill-8.1.3.tgz"
+  checksum: 776716ac9428f64fa0ef2f97fcedacf2c1a460a7c4d9d456ac792e8a98801cb12ff09eadeff266136e90f520d9c13455e4cf62a4692c0662d6f3280804361ba7
+  languageName: node
+  linkType: hard
+
 "prop-types-dd2574@workspace:dollar-ui/constants/prop-types":
   version: 0.0.0-use.local
   resolution: "prop-types-dd2574@workspace:dollar-ui/constants/prop-types"
@@ -1804,6 +2493,30 @@ __metadata:
     object-assign: ^4.1.1
     react-is: ^16.8.1
   checksum: 5eef82fdda64252c7e75aa5c8cc28a24bbdece0f540adb60ce67c205cf978a5bd56b83e4f269f91c6e4dcfd80b36f2a2dec24d362e278913db2086ca9c6f9430
+  languageName: node
+  linkType: hard
+
+"protobufjs@npm:^6.10.0":
+  version: 6.11.2
+  resolution: "protobufjs@npm:6.11.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fprotobufjs%2F-%2Fprotobufjs-6.11.2.tgz"
+  dependencies:
+    "@protobufjs/aspromise": ^1.1.2
+    "@protobufjs/base64": ^1.1.2
+    "@protobufjs/codegen": ^2.0.4
+    "@protobufjs/eventemitter": ^1.1.0
+    "@protobufjs/fetch": ^1.1.0
+    "@protobufjs/float": ^1.0.2
+    "@protobufjs/inquire": ^1.1.0
+    "@protobufjs/path": ^1.1.2
+    "@protobufjs/pool": ^1.1.0
+    "@protobufjs/utf8": ^1.1.0
+    "@types/long": ^4.0.1
+    "@types/node": ">=13.7.0"
+    long: ^4.0.0
+  bin:
+    pbjs: bin/pbjs
+    pbts: bin/pbts
+  checksum: 80e9d9610c3eb66f9eae4e44a1ae30381cedb721b7d5f635d781fe4c507e2c77bb7c879addcd1dda79733d3ae589d9e66fd18d42baf99b35df7382a0f9920795
   languageName: node
   linkType: hard
 
@@ -1932,6 +2645,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"refresh-7e6445@workspace:dollar-ui/action-buttons/refresh":
+  version: 0.0.0-use.local
+  resolution: "refresh-7e6445@workspace:dollar-ui/action-buttons/refresh"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "regenerator-runtime@npm:^0.13.4":
   version: 0.13.9
   resolution: "regenerator-runtime@npm:0.13.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fregenerator-runtime%2F-%2Fregenerator-runtime-0.13.9.tgz"
@@ -1956,6 +2679,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"require-directory@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "require-directory@npm:2.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Frequire-directory%2F-%2Frequire-directory-2.1.1.tgz"
+  checksum: fb47e70bf0001fdeabdc0429d431863e9475e7e43ea5f94ad86503d918423c1543361cc5166d713eaa7029dd7a3d34775af04764bebff99ef413111a5af18c80
+  languageName: node
+  linkType: hard
+
 "root-workspace-0b6124@workspace:.":
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
@@ -1975,9 +2705,11 @@ __metadata:
     "@types/react": ^17.0.8
     "@types/react-dom": ^17.0.5
     "@types/testing-library__jest-dom": 5.9.5
+    "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button": ^0.0.1
     choices.js: 9.0.1
     classnames: 2.3.1
     core-js: ^3.0.0
+    firebase: 8.10.0
     lodash: 4.17.21
     numbro: 2.3.5
     polished: 4.1.3
@@ -1994,6 +2726,13 @@ __metadata:
     react-dom: 16.13.1
   languageName: unknown
   linkType: soft
+
+"safe-buffer@npm:>=5.1.0":
+  version: 5.2.1
+  resolution: "safe-buffer@npm:5.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsafe-buffer%2F-%2Fsafe-buffer-5.2.1.tgz"
+  checksum: b99c4b41fdd67a6aaf280fcd05e9ffb0813654894223afb78a31f14a19ad220bba8aba1cb14eddce1fcfb037155fe6de4e861784eb434f7d11ed58d1e70dd491
+  languageName: node
+  linkType: hard
 
 "scheduler@npm:^0.19.1":
   version: 0.19.1
@@ -2045,6 +2784,26 @@ __metadata:
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
   linkType: soft
+
+"string-width@npm:^4.1.0, string-width@npm:^4.2.0":
+  version: 4.2.2
+  resolution: "string-width@npm:4.2.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstring-width%2F-%2Fstring-width-4.2.2.tgz"
+  dependencies:
+    emoji-regex: ^8.0.0
+    is-fullwidth-code-point: ^3.0.0
+    strip-ansi: ^6.0.0
+  checksum: 343e089b0e66e0f72aab4ad1d9b6f2c9cc5255844b0c83fd9b53f2a3b3fd0421bdd6cb05be96a73117eb012db0887a6c1d64ca95aaa50c518e48980483fea0ab
+  languageName: node
+  linkType: hard
+
+"strip-ansi@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "strip-ansi@npm:6.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-ansi%2F-%2Fstrip-ansi-6.0.0.tgz"
+  dependencies:
+    ansi-regex: ^5.0.0
+  checksum: 04c3239ede44c4d195b0e66c0ad58b932f08bec7d05290416d361ff908ad282ecdaf5d9731e322c84f151d427436bde01f05b7422c3ec26dd927586736b0e5d0
+  languageName: node
+  linkType: hard
 
 "styled-components@npm:5.3.0":
   version: 5.3.0
@@ -2143,6 +2902,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:^2.1.0":
+  version: 2.3.1
+  resolution: "tslib@npm:2.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftslib%2F-%2Ftslib-2.3.1.tgz"
+  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
+  languageName: node
+  linkType: hard
+
 "typed-styles@npm:^0.0.7":
   version: 0.0.7
   resolution: "typed-styles@npm:0.0.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftyped-styles%2F-%2Ftyped-styles-0.0.7.tgz"
@@ -2205,6 +2971,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"websocket-driver@npm:>=0.5.1":
+  version: 0.7.4
+  resolution: "websocket-driver@npm:0.7.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fwebsocket-driver%2F-%2Fwebsocket-driver-0.7.4.tgz"
+  dependencies:
+    http-parser-js: ">=0.5.1"
+    safe-buffer: ">=5.1.0"
+    websocket-extensions: ">=0.1.1"
+  checksum: fffe5a33fe8eceafd21d2a065661d09e38b93877eae1de6ab5d7d2734c6ed243973beae10ae48c6613cfd675f200e5a058d1e3531bc9e6c5d4f1396ff1f0bfb9
+  languageName: node
+  linkType: hard
+
+"websocket-extensions@npm:>=0.1.1":
+  version: 0.1.4
+  resolution: "websocket-extensions@npm:0.1.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fwebsocket-extensions%2F-%2Fwebsocket-extensions-0.1.4.tgz"
+  checksum: 5976835e68a86afcd64c7a9762ed85f2f27d48c488c707e67ba85e717b90fa066b98ab33c744d64255c9622d349eedecf728e65a5f921da71b58d0e9591b9038
+  languageName: node
+  linkType: hard
+
+"whatwg-fetch@npm:2.0.4":
+  version: 2.0.4
+  resolution: "whatwg-fetch@npm:2.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fwhatwg-fetch%2F-%2Fwhatwg-fetch-2.0.4.tgz"
+  checksum: de7c65a68d7d62e2f144a6b30293370b3ad82b65ebcd68f2ac8e8bbe7ede90febd98ba9486b78c1cbc950e0e8838fa5c2727f939899ab3fc7b71a04be52d33a5
+  languageName: node
+  linkType: hard
+
+"wrap-ansi@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "wrap-ansi@npm:7.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fwrap-ansi%2F-%2Fwrap-ansi-7.0.0.tgz"
+  dependencies:
+    ansi-styles: ^4.0.0
+    string-width: ^4.1.0
+    strip-ansi: ^6.0.0
+  checksum: a790b846fd4505de962ba728a21aaeda189b8ee1c7568ca5e817d85930e06ef8d1689d49dbf0e881e8ef84436af3a88bc49115c2e2788d841ff1b8b5b51a608b
+  languageName: node
+  linkType: hard
+
 "xlm-9f925d@workspace:crypto-logos/xlm":
   version: 0.0.0-use.local
   resolution: "xlm-9f925d@workspace:crypto-logos/xlm"
@@ -2214,3 +3016,39 @@ __metadata:
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
   linkType: soft
+
+"xmlhttprequest@npm:1.8.0":
+  version: 1.8.0
+  resolution: "xmlhttprequest@npm:1.8.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fxmlhttprequest%2F-%2Fxmlhttprequest-1.8.0.tgz"
+  checksum: c891cf0d7884b4f5cce835aa01f1965727cd352cbd2d7a2e0605bf11ec99ae2198364cca54656ec8b2581a5704dee6c2bf9911922a0ff2a71b613455d32e81b7
+  languageName: node
+  linkType: hard
+
+"y18n@npm:^5.0.5":
+  version: 5.0.8
+  resolution: "y18n@npm:5.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fy18n%2F-%2Fy18n-5.0.8.tgz"
+  checksum: 54f0fb95621ee60898a38c572c515659e51cc9d9f787fb109cef6fde4befbe1c4602dc999d30110feee37456ad0f1660fa2edcfde6a9a740f86a290999550d30
+  languageName: node
+  linkType: hard
+
+"yargs-parser@npm:^20.2.2":
+  version: 20.2.9
+  resolution: "yargs-parser@npm:20.2.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fyargs-parser%2F-%2Fyargs-parser-20.2.9.tgz"
+  checksum: 8bb69015f2b0ff9e17b2c8e6bfe224ab463dd00ca211eece72a4cd8a906224d2703fb8a326d36fdd0e68701e201b2a60ed7cf81ce0fd9b3799f9fe7745977ae3
+  languageName: node
+  linkType: hard
+
+"yargs@npm:^16.1.1":
+  version: 16.2.0
+  resolution: "yargs@npm:16.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fyargs%2F-%2Fyargs-16.2.0.tgz"
+  dependencies:
+    cliui: ^7.0.2
+    escalade: ^3.1.1
+    get-caller-file: ^2.0.5
+    require-directory: ^2.1.1
+    string-width: ^4.2.0
+    y18n: ^5.0.5
+    yargs-parser: ^20.2.2
+  checksum: b14afbb51e3251a204d81937c86a7e9d4bdbf9a2bcee38226c900d00f522969ab675703bee2a6f99f8e20103f608382936034e64d921b74df82b63c07c5e8f59
+  languageName: node
+  linkType: hard
