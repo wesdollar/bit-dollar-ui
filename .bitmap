@@ -11,7 +11,7 @@
 {
     "action-buttons/refresh": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/action-buttons/refresh"
     },
@@ -107,7 +107,7 @@
     },
     "dollar-crypto/views/login": {
         "scope": "wesdollar.dollar-crypto",
-        "version": "1.0.7",
+        "version": "1.0.9",
         "mainFile": "index.js",
         "rootDir": "dollar-crypto/dollar-crypto/views/login"
     },
@@ -152,6 +152,12 @@
         "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/text/text"
+    },
+    "ui/action-buttons/logout": {
+        "scope": "wesdollar.dollar-ui",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "dollar-ui/ui/action-buttons/logout"
     },
     "ui/buttons/button": {
         "scope": "wesdollar.dollar-ui",
@@ -215,7 +221,7 @@
     },
     "views/dashboard": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/views/dashboard"
     },

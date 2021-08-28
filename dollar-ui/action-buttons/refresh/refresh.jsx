@@ -5,7 +5,6 @@ import { Loading } from "@wesdollar/dollar-ui.ui.loading";
 
 const Container = styled.div`
   display: flex;
-  flex: 0 0 100%;
   justify-content: center;
 
   &:hover {

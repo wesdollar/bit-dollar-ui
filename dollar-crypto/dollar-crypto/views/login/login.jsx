@@ -7,8 +7,14 @@ import { LogoPngMd } from "@wesdollar/dollar-crypto.logo.logo-png-md";
 import { Space } from "@wesdollar/dollar-ui.ui.space";
 import { Button } from "@wesdollar/dollar-crypto.dollar-crypto.ui.buttons.button";
 import { Loading } from "@wesdollar/dollar-ui.ui.loading";
-import { getAuth, getRedirectResult, onAuthStateChanged } from "firebase/auth";
+import {
+  getAuth,
+  getRedirectResult,
+  onAuthStateChanged,
+  signOut,
+} from "firebase/auth";
 import { initializeApp } from "firebase/app";
+import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 const Container = styled.div`
   display: grid;
@@ -39,64 +45,68 @@ export const Login = ({
   setAuthErrors,
   setAuthResult,
   firebaseConfig,
+  setParentAuth,
 }) => {
+  const [childProps, setChildProps] = useState({});
   const [auth, setAuth] = useState();
-  const [childProps, setChildProps] = useState();
 
   useEffect(() => {
     initializeApp(firebaseConfig);
-    const authInit = getAuth();
+    const auth = getAuth();
 
-    setAuth(authInit);
+    setAuth(auth);
+    setParentAuth(auth);
 
     setChildProps({
       ButtonOverride: Button,
-      auth: authInit,
+      auth,
     });
+
+    onAuthStateChanged(auth, (user) => {
+      console.log("user object in onAuthStateChanged", user);
+      if (user) {
+        // https://firebase.google.com/docs/reference/js/firebase.User
+        console.log("auth state changed, user:", user);
+        setAuthenticatedUser(user);
+        setUserIsAuthenticated(true);
+      } else {
+        setAuthenticatedUser({});
+        setUserIsAuthenticated(false);
+      }
+    });
+
+    const handleAuthResponse = async (auth) => {
+      try {
+        let user;
+        const response = await getRedirectResult(auth);
+
+        console.log("hit handleAuthResponse", response);
+
+        if (response) {
+          ({ user } = response);
+
+          const loggedIn = Object.keys(response).length ? true : false;
+          setAuthResult(response);
+          setAuthenticatedUser(user || null);
+          setUserIsAuthenticated(loggedIn);
+        }
+      } catch (error) {
+        setAuthErrors(error);
+      }
+    };
+
+    handleAuthResponse(auth);
   }, []);
 
-  useEffect(() => {
-    console.log("onAuthStateChanged hit");
-
-    if (auth) {
-      onAuthStateChanged(auth, (user) => {
-        console.log("user object in onAuthStateChanged", user);
-        if (user) {
-          // https://firebase.google.com/docs/reference/js/firebase.User
-          console.log("auth state changed, user:", user);
-          setAuthenticatedUser(user);
-          setUserIsAuthenticated(true);
-        } else {
-          setAuthenticatedUser({});
-          setUserIsAuthenticated(false);
-        }
+  const handleSignOut = () => {
+    signOut(auth)
+      .then(() => {
+        console.log("user logged out");
+      })
+      .catch((error) => {
+        console.log("logout failed:", error);
       });
-    }
-  }, [auth]);
-
-  useEffect(() => {
-    if (auth) {
-      const handleAuthResponse = async () => {
-        try {
-          const response = await getRedirectResult(auth);
-          let user;
-
-          if (response) {
-            ({ user } = response);
-
-            const loggedIn = Object.keys(response).length ? true : false;
-            setAuthResult(response);
-            setAuthenticatedUser(user || null);
-            setUserIsAuthenticated(loggedIn);
-          }
-        } catch (error) {
-          setAuthErrors(error);
-        }
-      };
-
-      handleAuthResponse();
-    }
-  }, [auth]);
+  };
 
   if (!auth) {
     return <Loading isLoading={true} />;
@@ -112,6 +122,8 @@ export const Login = ({
         <Github {...childProps} />
         <Space height="20px" />
         <Apple {...childProps} />
+        <Space height="80px" />
+        <ExitToAppIcon onClick={handleSignOut} />
       </Container>
     </FlexContainer>
   );
@@ -139,4 +151,5 @@ Login.defaultProps = {
   setUserIsAuthenticated: (data) => console.log("user is authed:", data),
   setAuthErrors: (data) => console.error("auth errors:", data),
   setAuthResult: (data) => console.log("auth result:", data),
+  setParentAuth: () => {},
 };

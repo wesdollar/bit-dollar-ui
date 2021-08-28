@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import styled from "styled-components";
 import PropTypes from "prop-types";
 import { SummaryTile } from "@wesdollar/dollar-ui.crypto.summary-tile";
 import { ListWallets } from "@wesdollar/dollar-ui.crypto.list-wallets";
@@ -8,8 +9,20 @@ import { gutters } from "@wesdollar/dollar-ui.constants.gutters";
 import { profits } from "@wesdollar/dollar-ui.test-data.crypto.resources.profits";
 import { Loading } from "@wesdollar/dollar-ui.ui.loading";
 import { Refresh } from "@wesdollar/dollar-ui.action-buttons.refresh";
+import { Logout } from "@wesdollar/dollar-ui.ui.action-buttons.logout";
+import { colors } from "@wesdollar/dollar-crypto.dollar-crypto.constants.colors";
+import { signOut } from "firebase/auth";
 
-export const Dashboard = ({ profitsResource, isLoading }) => {
+const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+
+  .MuiSvgIcon-root {
+    fill: ${colors.primary};
+  }
+`;
+
+export const Dashboard = ({ profitsResource, isLoading, auth }) => {
   const [meta, setMeta] = useState();
   const [profits, setProfits] = useState();
 
@@ -19,6 +32,16 @@ export const Dashboard = ({ profitsResource, isLoading }) => {
       setProfits(profitsResource.profits);
     }
   }, [profitsResource]);
+
+  const handleSignOut = () => {
+    signOut(auth)
+      .then(() => {
+        console.log("user logged out");
+      })
+      .catch((error) => {
+        console.log("logout failed:", error);
+      });
+  };
 
   return (
     <Loading isLoading={isLoading}>
@@ -33,7 +56,11 @@ export const Dashboard = ({ profitsResource, isLoading }) => {
         <ListWallets profits={profits} />
         <Space height={gutters.bigGutter} />
         <Space height={gutters.bigGutter} />
-        <Refresh />
+        <ButtonContainer>
+          <Refresh />
+          <Space width={"40px"} />
+          <Logout onClick={handleSignOut} />
+        </ButtonContainer>
       </ViewContainer>
     </Loading>
   );
