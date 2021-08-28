@@ -7,12 +7,17 @@ import { Login } from "./login";
 
 ### Usage
 
+Currently supporting GitHub and Apple ID by was of Google's Firebase Auth. For specific instructions on how to setup Firebase, please [review the docs](https://firebase.google.com/docs/web/setup).
+
+Apple ID login requires an Apple developers account.
+
+The `firebaseConfig` object matches that of the config object Firebase will generate for you as part of the account setup process.
+
+`Login` itself owns the responsibility of communicating with Google and managing the user's session. Provide the required two props, and you'll be off to the races.
+
 ```js
 <Login
+  apiUrl={...}
   firebaseConfig={{ ... }}
-  setAuthenticatedUser={() => {}}
-  setUserIsAuthenticated={() => {}}
-  setAuthErrors={() => {}}
-  setAuthResult={() => {}}
 />
 ```

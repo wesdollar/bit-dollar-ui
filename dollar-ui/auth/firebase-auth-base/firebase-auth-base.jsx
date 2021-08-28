@@ -27,7 +27,6 @@ export const FirebaseAuthBase = ({
 
   const handleLogin = () => {
     let provider;
-    setIsFetching(true);
 
     switch (authProvider) {
       case "github":
