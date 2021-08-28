@@ -55,6 +55,7 @@ const TextContainer = styled.span`
   ${styles.fontStyles}
   color: ${({ variant }) => getVariant(variant)};
   font-size: ${({ size }) => getFontSize(size)};
+  line-height: 1.5rem;
 `;
 
 export const Text = ({ children, className, size, variant }) => {

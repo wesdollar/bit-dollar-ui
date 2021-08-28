@@ -7,14 +7,16 @@ import { propTypes as propTypeConstants } from "@wesdollar/dollar-ui.constants.p
 
 const StyledButton = styled(DollarUiButton)`
   background-color: ${colors.primary} !important;
+  ${({ width }) => width && `width: ${width};`}
 `;
 
-export const Button = ({ children, onClick, startIcon }) => {
+export const Button = ({ children, onClick, startIcon, width }) => {
   return (
     <StyledButton
       data-testid="button-container"
       onClick={onClick}
       startIcon={startIcon}
+      width={width}
     >
       {children}
     </StyledButton>

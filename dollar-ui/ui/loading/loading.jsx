@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import { CircularProgress } from "@material-ui/core";
-import { propTypes as propTypeConstants } from "@wesdollar/dollar-ui.constants.prop-types";
 
 const Container = styled.div`
   display: flex;
@@ -24,9 +23,7 @@ export const Loading = ({ children, isLoading }) => {
   );
 };
 
-const { children } = propTypeConstants;
-
-Loading.propTypes = { children, isLoading: PropTypes.bool.isRequired };
+Loading.propTypes = { isLoading: PropTypes.bool.isRequired };
 
 Loading.defaultProps = {
   isLoading: true,

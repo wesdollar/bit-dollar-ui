@@ -11,7 +11,7 @@
 {
     "action-buttons/refresh": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/action-buttons/refresh"
     },
@@ -21,9 +21,21 @@
         "mainFile": "index.js",
         "rootDir": "crypto-logos/amp"
     },
+    "auth/apple": {
+        "scope": "wesdollar.dollar-ui",
+        "version": "0.0.16",
+        "mainFile": "index.js",
+        "rootDir": "dollar-ui/auth/apple"
+    },
+    "auth/firebase-auth-base": {
+        "scope": "wesdollar.dollar-ui",
+        "version": "2.0.6",
+        "mainFile": "index.js",
+        "rootDir": "dollar-ui/auth/firebase-auth-base"
+    },
     "auth/github": {
         "scope": "wesdollar.dollar-ui",
-        "version": "1.0.13",
+        "version": "1.0.29",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/auth/github"
     },
@@ -59,19 +71,19 @@
     },
     "crypto/list-wallets": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/crypto/list-wallets"
     },
     "crypto/summary-tile": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/crypto/summary-tile"
     },
     "crypto/wallet-summary": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/crypto/wallet-summary"
     },
@@ -89,13 +101,19 @@
     },
     "dollar-crypto/ui/buttons/button": {
         "scope": "wesdollar.dollar-crypto",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-crypto/dollar-crypto/ui/buttons/button"
     },
+    "dollar-crypto/views/login": {
+        "scope": "wesdollar.dollar-crypto",
+        "version": "1.0.7",
+        "mainFile": "index.js",
+        "rootDir": "dollar-crypto/dollar-crypto/views/login"
+    },
     "dollar-crypto/views/set-keys": {
         "scope": "wesdollar.dollar-crypto",
-        "version": "0.0.8",
+        "version": "0.0.10",
         "mainFile": "index.js",
         "rootDir": "dollar-crypto/dollar-crypto/views/set-keys"
     },
@@ -125,13 +143,13 @@
     },
     "text/secondary-text": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/text/secondary-text"
     },
     "text/text": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/text/text"
     },
@@ -141,6 +159,12 @@
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/buttons/button"
     },
+    "ui/centered-horz": {
+        "scope": "wesdollar.dollar-ui",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "dollar-ui/ui/centered-horz"
+    },
     "ui/inputs/text-field": {
         "scope": "wesdollar.dollar-ui",
         "version": "0.0.5",
@@ -149,7 +173,7 @@
     },
     "ui/loading": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/loading"
     },
@@ -173,7 +197,7 @@
     },
     "ui/tile": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/tile"
     },
@@ -191,7 +215,7 @@
     },
     "views/dashboard": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.9",
+        "version": "0.0.11",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/views/dashboard"
     },
