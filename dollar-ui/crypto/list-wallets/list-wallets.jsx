@@ -8,7 +8,13 @@ export const ListWallets = ({ profits }) => {
   return (
     <Tile>
       {profits.map((profit, index) => {
-        const { coinCode, totalSpend, totalCoin, currentValue } = profit.wallet;
+        const {
+          coinCode,
+          totalSpend,
+          totalCoin,
+          currentValue,
+          currentCoinPrice,
+        } = profit.wallet;
 
         return (
           <WalletSummary
@@ -17,6 +23,7 @@ export const ListWallets = ({ profits }) => {
             totalCoin={totalCoin}
             totalInvestment={totalSpend}
             currentValue={currentValue}
+            currentCoinPrice={currentCoinPrice}
           />
         );
       })}

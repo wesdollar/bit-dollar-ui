@@ -2,16 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import { TextField as MaterialTextField } from "@material-ui/core";
 
-export const TextField = ({ id, label, className }, ref) => {
+export const TextField = (props) => {
   return (
     <span data-testid="text-field-container">
-      <MaterialTextField
-        id={id}
-        label={label}
-        className={className}
-        variant="outlined"
-        fullWidth={true}
-      />
+      <MaterialTextField {...props} variant="outlined" />
     </span>
   );
 };

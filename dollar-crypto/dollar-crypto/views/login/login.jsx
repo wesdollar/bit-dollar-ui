@@ -16,6 +16,7 @@ import {
   signOut,
 } from "firebase/auth";
 import { initializeApp } from "firebase/app";
+import { ErrorState } from "@wesdollar/dollar-ui.ui.error-state";
 
 const Container = styled.div`
   display: grid;
@@ -42,13 +43,16 @@ const FlexContainer = styled.div`
 
 export const Login = ({ apiUrl, firebaseConfig }) => {
   const [showSetKeys, setShowSetKeys] = useState(false);
+  const [showSetKeys2, setShowSetKeys2] = useState(false);
   const [showLoginForm, setShowLoginForm] = useState(false);
   const [showDashboard, setShowDashboard] = useState(false);
+  const [showProfitsError, setShowProfitsError] = useState(false);
   const [callGetUserFromDb, setCallGetUserFromDb] = useState(false);
   const [callGetProfits, setCallGetProfits] = useState(false);
   const [showLoading, setShowLoading] = useState(true);
   const [authedUser, setAuthedUser] = useState();
   const [profits, setProfits] = useState();
+  const [validationErrors, setValidationErrors] = useState([]);
 
   initializeApp(firebaseConfig);
   const auth = getAuth();
@@ -104,8 +108,6 @@ export const Login = ({ apiUrl, firebaseConfig }) => {
 
   useEffect(() => {
     const handleAuthResponse = async () => {
-      console.log("handleAuthResponse");
-
       try {
         const response = await getRedirectResult(auth);
 
@@ -127,11 +129,19 @@ export const Login = ({ apiUrl, firebaseConfig }) => {
         );
         const json = await response.json();
 
-        if (Object.keys(json).length) {
-          setProfits(json);
-          setShowSetKeys(false);
+        if (response.status === 403) {
           setShowLoading(false);
-          setShowDashboard(true);
+          setShowProfitsError(true);
+        } else {
+          if (Object.keys(json).length) {
+            setProfits(json);
+            setShowSetKeys(false);
+            setShowLoading(false);
+            setShowDashboard(true);
+          } else {
+            setShowLoading(false);
+            setShowProfitsError(true);
+          }
         }
       } catch (error) {
         console.error("callProfits error:", error);
@@ -170,18 +180,33 @@ export const Login = ({ apiUrl, firebaseConfig }) => {
       },
     });
 
-    if (response.status === 200) {
+    const json = await response.json();
+    const { status } = response;
+
+    console.log(status);
+
+    if (status === 200) {
       // loading should remain on since we're getting more data
       setCallGetProfits(true);
+    } else if (status === 400) {
+      setShowLoading(false);
+      setShowSetKeys2(true);
+      setValidationErrors(json.error.details);
     } else {
       // TODO: handle errors
     }
   };
 
-  if (showSetKeys) {
+  if (showSetKeys || showSetKeys2) {
+    const view = showSetKeys2 ? "form" : null;
+
     return (
       <FlexContainer>
-        <SetKeys onSave={handleSaveKeys} />
+        <SetKeys
+          view={view}
+          onSave={handleSaveKeys}
+          validationErrors={validationErrors}
+        />
       </FlexContainer>
     );
   }
@@ -215,6 +240,10 @@ export const Login = ({ apiUrl, firebaseConfig }) => {
         handleSignOut={handleSignOut}
       />
     );
+  }
+
+  if (showProfitsError) {
+    return <ErrorState />;
   }
 
   if (showLoading) {

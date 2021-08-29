@@ -11,6 +11,7 @@ import { Space } from "@wesdollar/dollar-ui.ui.space";
 import { gutters } from "@wesdollar/dollar-ui.constants.gutters";
 import InputIcon from "@material-ui/icons/Input";
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
+import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import { fontSizes } from "@wesdollar/dollar-ui.constants.font-sizes";
 import { NumberDisplay } from "@wesdollar/dollar-ui.ui.number-display";
 import { profits as profitsMockResource } from "@wesdollar/dollar-ui.test-data.crypto.resources.profits";
@@ -46,7 +47,7 @@ const getCoinLogo = (coinCode) => {
 const Container = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: ${gutters.bigGutter};
+  margin-bottom: ${gutters.gutter};
 
   &:last-of-type {
     margin-bottom: 0;
@@ -82,20 +83,26 @@ export const WalletSummary = ({
   totalCoin,
   totalInvestment,
   currentValue,
+  currentCoinPrice,
 }) => {
   return (
     <Container data-testid="wallet-summary-container">
       <div className="logo">{getCoinLogo(coinCode)}</div>
       <div className="info">
         <Text size="large">{coinCode}</Text>
-        <Space height="0" width={gutters.smallGutter} />
+        <Space height="0" width={gutters.smallerGutter} />
         <SecondaryText>
           <NumberDisplay decimalPlaces={4}>{totalCoin}</NumberDisplay>
+          {currentCoinPrice}
         </SecondaryText>
-        <Space height={gutters.bigGutter} />
+        <Space height={gutters.gutter} />
         <div className="money">
           <Text size="small" variant="secondary">
             <AttachMoneyIcon style={{ fontSize: iconFontSize }} />
+            <NumberDisplay>{currentCoinPrice}</NumberDisplay>
+            <Space height="0" width={gutters.smallGutter} />
+            <AccountBalanceIcon style={{ fontSize: iconFontSize }} />
+            <Space height="0" width={"6px"} />
             <NumberDisplay
               colorize={true}
               sign={Math.sign(currentValue - totalInvestment)}
@@ -118,9 +125,10 @@ WalletSummary.propTypes = {
   totalCoin: PropTypes.number.isRequired,
   totalInvestment: PropTypes.number.isRequired,
   currentValue: PropTypes.number.isRequired,
+  currentCoinPrice: PropTypes.number.isRequired,
 };
 
-const { totalCoin, totalSpend, currentValue } =
+const { totalCoin, totalSpend, currentValue, currentCoinPrice } =
   profitsMockResource.profits[0].wallet;
 
 WalletSummary.defaultProps = {
@@ -128,4 +136,5 @@ WalletSummary.defaultProps = {
   totalCoin,
   totalInvestment: totalSpend,
   currentValue,
+  currentCoinPrice,
 };

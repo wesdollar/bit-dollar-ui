@@ -4,22 +4,23 @@ import styled from "styled-components";
 import { Button as DollarUiButton } from "@wesdollar/dollar-ui.ui.buttons.button";
 import { colors } from "@wesdollar/dollar-crypto.dollar-crypto.constants.colors";
 import { propTypes as propTypeConstants } from "@wesdollar/dollar-ui.constants.prop-types";
+import { materialUiTheme } from "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme";
+import { ThemeProvider } from "@material-ui/styles";
 
-const StyledButton = styled(DollarUiButton)`
-  background-color: ${colors.primary} !important;
-  ${({ width }) => width && `width: ${width};`}
-`;
+const theme = materialUiTheme;
 
 export const Button = ({ children, onClick, startIcon, width }) => {
   return (
-    <StyledButton
-      data-testid="button-container"
-      onClick={onClick}
-      startIcon={startIcon}
-      width={width}
-    >
-      {children}
-    </StyledButton>
+    <ThemeProvider theme={theme}>
+      <DollarUiButton
+        data-testid="button-container"
+        onClick={onClick}
+        startIcon={startIcon}
+        width={width}
+      >
+        {children}
+      </DollarUiButton>
+    </ThemeProvider>
   );
 };
 

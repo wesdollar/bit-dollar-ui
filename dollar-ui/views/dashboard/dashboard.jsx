@@ -17,7 +17,7 @@ const ButtonContainer = styled.div`
   justify-content: center;
 
   .MuiSvgIcon-root {
-    fill: ${colors.secondaryBlack};
+    fill: ${colors.blackAccent};
   }
 `;
 
@@ -41,13 +41,13 @@ export const Dashboard = ({ profitsResource, isLoading, handleSignOut }) => {
           profit={meta?.profit}
           gains={meta?.gains}
         />
-        <Space height={gutters.bigGutter} />
+        <Space height={gutters.gutter} />
         <ListWallets profits={profits} />
-        <Space height={gutters.bigGutter} />
-        <Space height={gutters.bigGutter} />
+        <Space height={gutters.gutter} />
+        <Space height={gutters.gutter} />
         <ButtonContainer>
           <Refresh />
-          <Space width={"40px"} />
+          <Space width={gutters.gutter} />
           <Logout onClick={handleSignOut} />
         </ButtonContainer>
       </ViewContainer>

@@ -5,19 +5,20 @@ labels: ["generators", "dollar-ui"]
 
 import { CopyBox } from "@teambit/documenter.ui.copy-box";
 import { Space } from "@wesdollar/dollar-ui.ui.space";
+import { gutters } from "@wesdollar/dollar-ui.constants.gutters";
 
 ### Available Generators
 
 <ThemeCompositions>
   React component without TS
   <CopyBox>bit create dollar-react my-react-component</CopyBox>
-  <Space height="40px" />
+  <Space height={gutters.gutter} />
   Constants file for storing scoped or global Constants
   <CopyBox>bit create constants components-constants</CopyBox>
-  <Space height="40px" />
+  <Space height={gutters.gutter} />
   Helper function file for creating helper functions and utilities
   <CopyBox>bit create helpfer-function do-something-cool</CopyBox>
-  <Space height="40px" />
+  <Space height={gutters.gutter} />
   Generate a React component for crypto logos
   <CopyBox>bit create crypto-logo eth</CopyBox>
 </ThemeCompositions>

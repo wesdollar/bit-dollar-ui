@@ -8,6 +8,8 @@ import {
   OAuthProvider,
   signInWithRedirect,
 } from "firebase/auth";
+import { materialUiTheme } from "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme";
+import { ThemeProvider } from "@material-ui/styles";
 
 const Container = styled.div`
   display: flex;
@@ -15,6 +17,8 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
+const theme = materialUiTheme;
 
 export const FirebaseAuthBase = ({
   ButtonOverride,
@@ -56,16 +60,18 @@ export const FirebaseAuthBase = ({
   return (
     <Loading isLoading={isFetching}>
       <Container data-testid="firebase-auth-base-container">
-        <RenderButton
-          onClick={() => {
-            handleLogin();
-            setIsFetching(true);
-          }}
-          startIcon={StartIcon}
-          width={"255px"}
-        >
-          {buttonLabel}
-        </RenderButton>
+        <ThemeProvider theme={theme}>
+          <RenderButton
+            onClick={() => {
+              handleLogin();
+              setIsFetching(true);
+            }}
+            startIcon={StartIcon}
+            width={"255px"}
+          >
+            {buttonLabel}
+          </RenderButton>
+        </ThemeProvider>
       </Container>
     </Loading>
   );

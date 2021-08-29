@@ -7,6 +7,7 @@ const red = "#c75f66";
 const green = "#54aa79";
 const darkBorder = "#2c2d32";
 const grey = "#8c909c";
+const blackAccent = "#3b3c42";
 
 export const colors = {
   primary,
@@ -20,4 +21,5 @@ export const colors = {
   green,
   darkBorder,
   grey,
+  blackAccent,
 };
