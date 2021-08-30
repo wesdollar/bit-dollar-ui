@@ -30,9 +30,6 @@ export const materialUiTheme = createTheme({
       root: {
         lineHeight: 1.5,
       },
-      body1: {
-        marginBottom: 14,
-      },
     },
   },
 });

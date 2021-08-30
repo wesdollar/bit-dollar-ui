@@ -4,7 +4,7 @@ import { WalletSummary } from "@wesdollar/dollar-ui.crypto.wallet-summary";
 import { Tile } from "@wesdollar/dollar-ui.ui.tile";
 import { profits as profitsMock } from "@wesdollar/dollar-ui.test-data.crypto.resources.profits";
 
-export const ListWallets = ({ profits }) => {
+export const ListWallets = ({ profits, stealthMode }) => {
   return (
     <Tile>
       {profits.map((profit, index) => {
@@ -24,6 +24,7 @@ export const ListWallets = ({ profits }) => {
             totalInvestment={totalSpend}
             currentValue={currentValue}
             currentCoinPrice={currentCoinPrice}
+            stealthMode={stealthMode}
           />
         );
       })}
@@ -33,6 +34,7 @@ export const ListWallets = ({ profits }) => {
 
 ListWallets.propTypes = {
   profits: PropTypes.array.isRequired,
+  stealthMode: PropTypes.bool,
 };
 
 ListWallets.defaultProps = {

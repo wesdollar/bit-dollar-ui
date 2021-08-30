@@ -16,6 +16,7 @@ import { fontSizes } from "@wesdollar/dollar-ui.constants.font-sizes";
 import { NumberDisplay } from "@wesdollar/dollar-ui.ui.number-display";
 import { profits as profitsMockResource } from "@wesdollar/dollar-ui.test-data.crypto.resources.profits";
 import { LogoPngSm } from "@wesdollar/dollar-crypto.logo.logo-png-sm";
+import { StealthMode } from "@wesdollar/dollar-ui.ui.stealth-mode";
 
 const getCoinLogo = (coinCode) => {
   let Component;
@@ -85,6 +86,7 @@ export const WalletSummary = ({
   totalInvestment,
   currentValue,
   currentCoinPrice,
+  stealthMode,
 }) => {
   return (
     <Container data-testid="wallet-summary-container">
@@ -92,28 +94,31 @@ export const WalletSummary = ({
       <div className="info">
         <Text size="large">{coinCode}</Text>
         <Space height="0" width={gutters.smallerGutter} />
-        <SecondaryText>
-          <NumberDisplay decimalPlaces={4}>{totalCoin}</NumberDisplay>
-          {currentCoinPrice}
-        </SecondaryText>
+        <StealthMode stealthMode={stealthMode}>
+          <SecondaryText>
+            <NumberDisplay decimalPlaces={4}>{totalCoin}</NumberDisplay>
+          </SecondaryText>
+        </StealthMode>
         <Space height={gutters.gutter} />
         <div className="money">
           <Text size="small" variant="secondary">
             <AttachMoneyIcon style={{ fontSize: iconFontSize }} />
             <NumberDisplay>{currentCoinPrice}</NumberDisplay>
-            <Space height="0" width={gutters.smallGutter} />
-            <AccountBalanceIcon style={{ fontSize: iconFontSize }} />
-            <Space height="0" width={"6px"} />
-            <NumberDisplay
-              colorize={true}
-              sign={Math.sign(currentValue - totalInvestment)}
-            >
-              {currentValue}
-            </NumberDisplay>
-            <Space height="0" width={gutters.smallGutter} />
-            <InputIcon style={{ fontSize: iconFontSize }} />
-            <Space height="0" width={"6px"} />
-            <NumberDisplay>{totalInvestment}</NumberDisplay>
+            <StealthMode stealthMode={stealthMode}>
+              <Space height="0" width={gutters.smallGutter} />
+              <AccountBalanceIcon style={{ fontSize: iconFontSize }} />
+              <Space height="0" width={"6px"} />
+              <NumberDisplay
+                colorize={true}
+                sign={Math.sign(currentValue - totalInvestment)}
+              >
+                {currentValue}
+              </NumberDisplay>
+              <Space height="0" width={gutters.smallGutter} />
+              <InputIcon style={{ fontSize: iconFontSize }} />
+              <Space height="0" width={"6px"} />
+              <NumberDisplay>{totalInvestment}</NumberDisplay>
+            </StealthMode>
           </Text>
         </div>
       </div>
@@ -127,6 +132,7 @@ WalletSummary.propTypes = {
   totalInvestment: PropTypes.number.isRequired,
   currentValue: PropTypes.number.isRequired,
   currentCoinPrice: PropTypes.number.isRequired,
+  stealthMode: PropTypes.bool,
 };
 
 const { totalCoin, totalSpend, currentValue, currentCoinPrice } =

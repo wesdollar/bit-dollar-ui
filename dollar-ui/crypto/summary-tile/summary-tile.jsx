@@ -65,6 +65,7 @@ export const SummaryTile = ({
   currentValue,
   profit,
   gains,
+  stealthMode,
 }) => {
   return (
     <Tile>
@@ -79,22 +80,26 @@ export const SummaryTile = ({
             <NumberDisplay>{gains}</NumberDisplay>
           </div>
         </div>
-        <Space height="8px" />
-        <div className="flex">
-          <div className="current-value">
-            <Text variant="secondary">
-              <AttachMoneyIcon style={{ fontSize: iconFontSize }} />
-              <NumberDisplay>{currentValue}</NumberDisplay>
-            </Text>
-          </div>
-          <div className="total-investment">
-            <Text variant="secondary">
-              <InputIcon style={{ fontSize: iconFontSize }} />
-              <Space width="8px" height="0" />
-              <NumberDisplay>{totalInvestment}</NumberDisplay>
-            </Text>
-          </div>
-        </div>
+        {!stealthMode && (
+          <>
+            <Space height="8px" />
+            <div className="flex">
+              <div className="current-value">
+                <Text variant="secondary">
+                  <AttachMoneyIcon style={{ fontSize: iconFontSize }} />
+                  <NumberDisplay>{currentValue}</NumberDisplay>
+                </Text>
+              </div>
+              <div className="total-investment">
+                <Text variant="secondary">
+                  <InputIcon style={{ fontSize: iconFontSize }} />
+                  <Space width="8px" height="0" />
+                  <NumberDisplay>{totalInvestment}</NumberDisplay>
+                </Text>
+              </div>
+            </div>
+          </>
+        )}
       </Container>
     </Tile>
   );
@@ -105,6 +110,7 @@ SummaryTile.propTypes = {
   currentValue: PropTypes.number.isRequired,
   profit: PropTypes.number.isRequired,
   gains: PropTypes.number.isRequired,
+  stealthMode: PropTypes.bool,
 };
 
 const { totalInvestment, currentValue, profit, gains } = profitsMockData.meta;

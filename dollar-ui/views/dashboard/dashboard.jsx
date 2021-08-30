@@ -13,6 +13,9 @@ import { Logout } from "@wesdollar/dollar-ui.ui.action-buttons.logout";
 import { colors } from "@wesdollar/dollar-crypto.dollar-crypto.constants.colors";
 import SettingsEthernetIcon from "@material-ui/icons/SettingsEthernet";
 import { Body2 } from "@wesdollar/dollar-ui.ui.typography.body2";
+import { FormControlLabel, Switch, FormGroup } from "@material-ui/core";
+import { materialUiTheme } from "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme";
+import { ThemeProvider } from "@material-ui/core";
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -60,6 +63,7 @@ export const Dashboard = ({
 }) => {
   const [meta, setMeta] = useState();
   const [profits, setProfits] = useState();
+  const [stealthMode, setStealthMode] = useState(false);
 
   useEffect(() => {
     if (Object.keys(profitsResource).length) {
@@ -76,9 +80,10 @@ export const Dashboard = ({
           currentValue={meta?.currentValue}
           profit={meta?.profit}
           gains={meta?.gains}
+          stealthMode={stealthMode}
         />
         <Space height={gutters.gutter} />
-        <ListWallets profits={profits} />
+        <ListWallets profits={profits} stealthMode={stealthMode} />
         <Space height={gutters.gutter} />
         <Space height={gutters.gutter} />
         <ButtonContainer wsConnectionStatus={wsConnectionStatus}>
@@ -91,6 +96,24 @@ export const Dashboard = ({
             color={"primary"}
             titleAccess="connected to server for updates"
           />
+        </ButtonContainer>
+        <Space height={gutters.gutter} />
+        <ButtonContainer>
+          <ThemeProvider theme={materialUiTheme}>
+            <FormGroup>
+              <FormControlLabel
+                control={
+                  <Switch
+                    checked={stealthMode}
+                    onChange={() => setStealthMode(!stealthMode)}
+                    name="stealth-mode"
+                    color="primary"
+                  />
+                }
+                label="Stealth Mode"
+              />
+            </FormGroup>
+          </ThemeProvider>
         </ButtonContainer>
         <Space height={gutters.smallGutter} />
         <ButtonContainer>

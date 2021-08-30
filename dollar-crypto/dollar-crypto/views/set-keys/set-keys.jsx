@@ -67,6 +67,10 @@ export const SetKeys = ({ onSave, validationErrors, view }) => {
             Grant the following permissions when setting up your keys. Never
             provide write access to us!
           </p>
+          <p>
+            We never store any of your Coinbase data. The only data we store are
+            your API keys and login information.
+          </p>
           <ul>
             {apiPermissions.map((permission, index) => (
               <li key={`permissions-${index}`}>
