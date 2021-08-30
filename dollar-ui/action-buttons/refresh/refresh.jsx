@@ -21,7 +21,7 @@ export const Refresh = () => {
   };
 
   return (
-    <Loading isLoading={isLoading}>
+    <Loading inline isLoading={isLoading} size={35}>
       <Container data-testid="refresh-container" onClick={refresh}>
         <SyncIcon fontSize="large" />
       </Container>

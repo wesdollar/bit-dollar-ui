@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import PropTypes from "prop-types";
+import { ViewContainer } from "@wesdollar/dollar-ui.ui.view-container/dist";
+import { CenteredViewport } from "@wesdollar/dollar-ui.ui.centered-viewport/dist";
 
 const Container = styled.div`
   display: flex;
@@ -11,8 +12,15 @@ const Container = styled.div`
 
 export const MobileContainer = ({ children, className }) => {
   return (
-    <Container data-testid="mobile-container-container" className={className}>
-      {children}
-    </Container>
+    <CenteredViewport>
+      <ViewContainer>
+        <Container
+          data-testid="mobile-container-container"
+          className={className}
+        >
+          {children}
+        </Container>
+      </ViewContainer>
+    </CenteredViewport>
   );
 };

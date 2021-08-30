@@ -15,6 +15,7 @@ import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import { fontSizes } from "@wesdollar/dollar-ui.constants.font-sizes";
 import { NumberDisplay } from "@wesdollar/dollar-ui.ui.number-display";
 import { profits as profitsMockResource } from "@wesdollar/dollar-ui.test-data.crypto.resources.profits";
+import { LogoPngSm } from "@wesdollar/dollar-crypto.logo.logo-png-sm";
 
 const getCoinLogo = (coinCode) => {
   let Component;
@@ -37,7 +38,7 @@ const getCoinLogo = (coinCode) => {
       break;
 
     default:
-      Component = <Eth />;
+      Component = <LogoPngSm />;
       break;
   }
 
@@ -132,7 +133,7 @@ const { totalCoin, totalSpend, currentValue, currentCoinPrice } =
   profitsMockResource.profits[0].wallet;
 
 WalletSummary.defaultProps = {
-  coinCode: "AMP",
+  coinCode: "WES",
   totalCoin,
   totalInvestment: totalSpend,
   currentValue,

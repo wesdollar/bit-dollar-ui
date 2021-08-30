@@ -11,6 +11,8 @@ import { Loading } from "@wesdollar/dollar-ui.ui.loading";
 import { Refresh } from "@wesdollar/dollar-ui.action-buttons.refresh";
 import { Logout } from "@wesdollar/dollar-ui.ui.action-buttons.logout";
 import { colors } from "@wesdollar/dollar-crypto.dollar-crypto.constants.colors";
+import SettingsEthernetIcon from "@material-ui/icons/SettingsEthernet";
+import { Body2 } from "@wesdollar/dollar-ui.ui.typography.body2";
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -19,9 +21,43 @@ const ButtonContainer = styled.div`
   .MuiSvgIcon-root {
     fill: ${colors.blackAccent};
   }
+
+  .MuiSvgIcon-colorPrimary {
+    fill: ${({ wsConnectionStatus }) => {
+      let color;
+
+      switch (wsConnectionStatus) {
+        case "Open":
+          color = colors.green;
+          break;
+
+        case "Connecting":
+          color = colors.primary;
+          break;
+
+        case "Closing":
+        case "Closed":
+        case "Uninstantiated":
+          color = colors.red;
+          break;
+
+        default:
+          color = "inherit";
+          break;
+      }
+
+      return color;
+    }};
+  }
 `;
 
-export const Dashboard = ({ profitsResource, isLoading, handleSignOut }) => {
+export const Dashboard = ({
+  profitsResource,
+  isLoading,
+  handleSignOut,
+  lastUpdated,
+  wsConnectionStatus,
+}) => {
   const [meta, setMeta] = useState();
   const [profits, setProfits] = useState();
 
@@ -45,10 +81,20 @@ export const Dashboard = ({ profitsResource, isLoading, handleSignOut }) => {
         <ListWallets profits={profits} />
         <Space height={gutters.gutter} />
         <Space height={gutters.gutter} />
-        <ButtonContainer>
+        <ButtonContainer wsConnectionStatus={wsConnectionStatus}>
           <Refresh />
           <Space width={gutters.gutter} />
           <Logout onClick={handleSignOut} />
+          <Space width={gutters.gutter} />
+          <SettingsEthernetIcon
+            fontSize="large"
+            color={"primary"}
+            titleAccess="connected to server for updates"
+          />
+        </ButtonContainer>
+        <Space height={gutters.smallGutter} />
+        <ButtonContainer>
+          <Body2>last updated {lastUpdated}</Body2>
         </ButtonContainer>
       </ViewContainer>
     </Loading>
@@ -58,9 +104,13 @@ export const Dashboard = ({ profitsResource, isLoading, handleSignOut }) => {
 Dashboard.propTypes = {
   profitsResource: PropTypes.object.isRequired,
   isLoading: PropTypes.bool.isRequired,
+  lastUpdated: PropTypes.string.isRequired,
+  wsConnectionStatus: PropTypes.string.isRequired,
 };
 
 Dashboard.defaultProps = {
   profitsResource: profits,
   isLoading: false,
+  lastUpdated: "now",
+  wsConnectionStatus: "",
 };
