@@ -3,7 +3,12 @@ import { TypographyBase } from "@wesdollar/dollar-ui.ui.typography.typography-ba
 
 export const Body2 = ({ children, color }) => {
   return (
-    <TypographyBase variant="body2" color={color} data-testid="body2-container">
+    <TypographyBase
+      gutterBottom
+      variant="body2"
+      color={color}
+      data-testid="body2-container"
+    >
       {children}
     </TypographyBase>
   );

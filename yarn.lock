@@ -5,6 +5,16 @@ __metadata:
   version: 4
   cacheKey: 8
 
+"1inch-0ded26@workspace:crypto-logos/1inch":
+  version: 0.0.0-use.local
+  resolution: "1inch-0ded26@workspace:crypto-logos/1inch"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:^7.10.4, @babel/code-frame@npm:^7.14.5":
   version: 7.14.5
   resolution: "@babel/code-frame@npm:7.14.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fcode-frame%2F-%2Fcode-frame-7.14.5.tgz"
@@ -1444,9 +1454,59 @@ __metadata:
   languageName: node
   linkType: hard
 
+"aave-dd42d3@workspace:crypto-logos/aave":
+  version: 0.0.0-use.local
+  resolution: "aave-dd42d3@workspace:crypto-logos/aave"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ach-373453@workspace:crypto-logos/ach":
+  version: 0.0.0-use.local
+  resolution: "ach-373453@workspace:crypto-logos/ach"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ada-57c3c0@workspace:crypto-logos/ada":
+  version: 0.0.0-use.local
+  resolution: "ada-57c3c0@workspace:crypto-logos/ada"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"algo-85e371@workspace:crypto-logos/algo":
+  version: 0.0.0-use.local
+  resolution: "algo-85e371@workspace:crypto-logos/algo"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "amp-b41105@workspace:crypto-logos/amp":
   version: 0.0.0-use.local
   resolution: "amp-b41105@workspace:crypto-logos/amp"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ankr-ccf2c5@workspace:crypto-logos/ankr":
+  version: 0.0.0-use.local
+  resolution: "ankr-ccf2c5@workspace:crypto-logos/ankr"
   peerDependencies:
     "@testing-library/react": 12.0.0
     react: ^16.8.0 || ^17.0.0
@@ -1512,6 +1572,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"atom-a17cf4@workspace:crypto-logos/atom":
+  version: 0.0.0-use.local
+  resolution: "atom-a17cf4@workspace:crypto-logos/atom"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"axs-8e7ba8@workspace:crypto-logos/axs":
+  version: 0.0.0-use.local
+  resolution: "axs-8e7ba8@workspace:crypto-logos/axs"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "babel-plugin-styled-components@npm:>= 1.12.0":
   version: 1.13.2
   resolution: "babel-plugin-styled-components@npm:1.13.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-plugin-styled-components%2F-%2Fbabel-plugin-styled-components-1.13.2.tgz"
@@ -1533,6 +1613,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bal-8bc19a@workspace:crypto-logos/bal":
+  version: 0.0.0-use.local
+  resolution: "bal-8bc19a@workspace:crypto-logos/bal"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "balanced-match@npm:^1.0.0":
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbalanced-match%2F-%2Fbalanced-match-1.0.2.tgz"
@@ -1540,12 +1630,52 @@ __metadata:
   languageName: node
   linkType: hard
 
+"band-9526cb@workspace:crypto-logos/band":
+  version: 0.0.0-use.local
+  resolution: "band-9526cb@workspace:crypto-logos/band"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"bat-0d8008@workspace:crypto-logos/bat":
+  version: 0.0.0-use.local
+  resolution: "bat-0d8008@workspace:crypto-logos/bat"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"bch-134cba@workspace:crypto-logos/bch":
+  version: 0.0.0-use.local
+  resolution: "bch-134cba@workspace:crypto-logos/bch"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "bignumber.js@npm:^8.1.1":
   version: 8.1.1
   resolution: "bignumber.js@npm:8.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbignumber.js%2F-%2Fbignumber.js-8.1.1.tgz"
   checksum: 71544348507cd16c2c152699a8e5146964d9cf4f46108075bcd16a964dffb3963256259fc6ffc9753b4d33dfd0cf863a6b564103a3a20e10002f12a1902e8075
   languageName: node
   linkType: hard
+
+"bnt-56c21c@workspace:crypto-logos/bnt":
+  version: 0.0.0-use.local
+  resolution: "bnt-56c21c@workspace:crypto-logos/bnt"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "body1-a99f08@workspace:dollar-ui/ui/typography/body1":
   version: 0.0.0-use.local
@@ -1567,6 +1697,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"bond-98cada@workspace:crypto-logos/bond":
+  version: 0.0.0-use.local
+  resolution: "bond-98cada@workspace:crypto-logos/bond"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fbrace-expansion%2F-%2Fbrace-expansion-1.1.11.tgz"
@@ -1576,6 +1716,16 @@ __metadata:
   checksum: faf34a7bb0c3fcf4b59c7808bc5d2a96a40988addf2e7e09dfbb67a2251800e0d14cd2bfc1aa79174f2f5095c54ff27f46fb1289fe2d77dac755b5eb3434cc07
   languageName: node
   linkType: hard
+
+"btc-446518@workspace:crypto-logos/btc":
+  version: 0.0.0-use.local
+  resolution: "btc-446518@workspace:crypto-logos/btc"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "button-4764e3@workspace:dollar-ui/ui/buttons/button":
   version: 0.0.0-use.local
@@ -1634,6 +1784,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"cgld-265d55@workspace:crypto-logos/cgld":
+  version: 0.0.0-use.local
+  resolution: "cgld-265d55@workspace:crypto-logos/cgld"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "chalk@npm:^2.0.0":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fchalk%2F-%2Fchalk-2.4.2.tgz"
@@ -1665,6 +1825,16 @@ __metadata:
   checksum: e97a1532da530e4e02765776cd96121fb5d42636185c62251b5ccd54d1e7eb476a72d35f95a38f08fff05c44e08495820c5e0d1c9efd0e6056c65fdca1c93966
   languageName: node
   linkType: hard
+
+"chz-03626e@workspace:crypto-logos/chz":
+  version: 0.0.0-use.local
+  resolution: "chz-03626e@workspace:crypto-logos/chz"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "classnames@npm:2.2.6":
   version: 2.2.6
@@ -1707,6 +1877,16 @@ __metadata:
   checksum: ff052650329773b9b245177305fc4c4dc3129f7b2be84af4f58dc5defa99538c61d4207be7419405a5f8f3d92007c954f4daba5a7b74e563d5de71c28c830063
   languageName: node
   linkType: hard
+
+"clv-50f7ff@workspace:crypto-logos/clv":
+  version: 0.0.0-use.local
+  resolution: "clv-50f7ff@workspace:crypto-logos/clv"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "color-convert@npm:^1.9.0":
   version: 1.9.3
@@ -1767,6 +1947,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"comp-501d64@workspace:crypto-logos/comp":
+  version: 0.0.0-use.local
+  resolution: "comp-501d64@workspace:crypto-logos/comp"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fconcat-map%2F-%2Fconcat-map-0.0.1.tgz"
@@ -1811,6 +2001,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"crv-417558@workspace:crypto-logos/crv":
+  version: 0.0.0-use.local
+  resolution: "crv-417558@workspace:crypto-logos/crv"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "css-color-keywords@npm:^1.0.0":
   version: 1.0.0
   resolution: "css-color-keywords@npm:1.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-color-keywords%2F-%2Fcss-color-keywords-1.0.0.tgz"
@@ -1853,6 +2053,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ctsi-b487a4@workspace:crypto-logos/ctsi":
+  version: 0.0.0-use.local
+  resolution: "ctsi-b487a4@workspace:crypto-logos/ctsi"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "currently-unhandled@npm:^0.4.1":
   version: 0.4.1
   resolution: "currently-unhandled@npm:0.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcurrently-unhandled%2F-%2Fcurrently-unhandled-0.4.1.tgz"
@@ -1861,6 +2071,26 @@ __metadata:
   checksum: 1f59fe10b5339b54b1a1eee110022f663f3495cf7cf2f480686e89edc7fa8bfe42dbab4b54f85034bc8b092a76cc7becbc2dad4f9adad332ab5831bec39ad540
   languageName: node
   linkType: hard
+
+"dai-c8ee34@workspace:crypto-logos/dai":
+  version: 0.0.0-use.local
+  resolution: "dai-c8ee34@workspace:crypto-logos/dai"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"dash-176733@workspace:crypto-logos/dash":
+  version: 0.0.0-use.local
+  resolution: "dash-176733@workspace:crypto-logos/dash"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "dashboard-03f033@workspace:dollar-ui/views/dashboard":
   version: 0.0.0-use.local
@@ -1928,6 +2158,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"doge-a37661@workspace:crypto-logos/doge":
+  version: 0.0.0-use.local
+  resolution: "doge-a37661@workspace:crypto-logos/doge"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "dom-accessibility-api@npm:^0.5.6":
   version: 0.5.7
   resolution: "dom-accessibility-api@npm:0.5.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fdom-accessibility-api%2F-%2Fdom-accessibility-api-0.5.7.tgz"
@@ -1954,12 +2194,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dot-514b7a@workspace:crypto-logos/dot":
+  version: 0.0.0-use.local
+  resolution: "dot-514b7a@workspace:crypto-logos/dot"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Femoji-regex%2F-%2Femoji-regex-8.0.0.tgz"
   checksum: d4c5c39d5a9868b5fa152f00cada8a936868fd3367f33f71be515ecee4c803132d11b31a6222b2571b1e5f7e13890156a94880345594d0ce7e3c9895f560f192
   languageName: node
   linkType: hard
+
+"enj-3f521f@workspace:crypto-logos/enj":
+  version: 0.0.0-use.local
+  resolution: "enj-3f521f@workspace:crypto-logos/enj"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"eos-3d7444@workspace:crypto-logos/eos":
+  version: 0.0.0-use.local
+  resolution: "eos-3d7444@workspace:crypto-logos/eos"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "error-state-f8dc15@workspace:dollar-ui/ui/error-state":
   version: 0.0.0-use.local
@@ -1995,9 +2265,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"etc-1cdb44@workspace:crypto-logos/etc":
+  version: 0.0.0-use.local
+  resolution: "etc-1cdb44@workspace:crypto-logos/etc"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "eth-1ef22d@workspace:crypto-logos/eth":
   version: 0.0.0-use.local
   resolution: "eth-1ef22d@workspace:crypto-logos/eth"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"farm-8257a2@workspace:crypto-logos/farm":
+  version: 0.0.0-use.local
+  resolution: "farm-8257a2@workspace:crypto-logos/farm"
   peerDependencies:
     "@testing-library/react": 12.0.0
     react: ^16.8.0 || ^17.0.0
@@ -2013,6 +2303,26 @@ __metadata:
   checksum: d7b2d68546812ea24e3079bd1e08bf1d79cd6d6137bfcea565d1cb1f6a5fc8fc29b689df2c1aff8b8b291d60fc808e1b27aa2896b86ba77ded10f1d9734c8e9f
   languageName: node
   linkType: hard
+
+"fet-a15316@workspace:crypto-logos/fet":
+  version: 0.0.0-use.local
+  resolution: "fet-a15316@workspace:crypto-logos/fet"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"fil-2997e6@workspace:crypto-logos/fil":
+  version: 0.0.0-use.local
+  resolution: "fil-2997e6@workspace:crypto-logos/fil"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "firebase-auth-base-8271d2@workspace:dollar-ui/auth/firebase-auth-base":
   version: 0.0.0-use.local
@@ -2060,6 +2370,16 @@ __metadata:
 "font-sizes-21d58a@workspace:dollar-ui/constants/font-sizes":
   version: 0.0.0-use.local
   resolution: "font-sizes-21d58a@workspace:dollar-ui/constants/font-sizes"
+  languageName: unknown
+  linkType: soft
+
+"forth-adce15@workspace:crypto-logos/forth":
+  version: 0.0.0-use.local
+  resolution: "forth-adce15@workspace:crypto-logos/forth"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
   linkType: soft
 
@@ -2168,6 +2488,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"grt-3e2021@workspace:crypto-logos/grt":
+  version: 0.0.0-use.local
+  resolution: "grt-3e2021@workspace:crypto-logos/grt"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"gtc-ea3bc9@workspace:crypto-logos/gtc":
+  version: 0.0.0-use.local
+  resolution: "gtc-ea3bc9@workspace:crypto-logos/gtc"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "gud@npm:^1.0.0":
   version: 1.0.0
   resolution: "gud@npm:1.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fgud%2F-%2Fgud-1.0.0.tgz"
@@ -2270,6 +2610,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"icp-b252db@workspace:crypto-logos/icp":
+  version: 0.0.0-use.local
+  resolution: "icp-b252db@workspace:crypto-logos/icp"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "idb@npm:3.0.2":
   version: 3.0.2
   resolution: "idb@npm:3.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fidb%2F-%2Fidb-3.0.2.tgz"
@@ -2300,6 +2650,16 @@ __metadata:
   checksum: 4a48a733847879d6cf6691860a6b1e3f0f4754176e4d71494c41f3475553768b10f84b5ce1d40fbd0e34e6bfbb864ee35858ad4dd2cf31e02fc4a154b724d7f1
   languageName: node
   linkType: hard
+
+"iotx-d89550@workspace:crypto-logos/iotx":
+  version: 0.0.0-use.local
+  resolution: "iotx-d89550@workspace:crypto-logos/iotx"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "is-arguments@npm:^1.0.4":
   version: 1.1.1
@@ -2515,6 +2875,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"keep-41a7d5@workspace:crypto-logos/keep":
+  version: 0.0.0-use.local
+  resolution: "keep-41a7d5@workspace:crypto-logos/keep"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"knc-9daf82@workspace:crypto-logos/knc":
+  version: 0.0.0-use.local
+  resolution: "knc-9daf82@workspace:crypto-logos/knc"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "lie@npm:~3.3.0":
   version: 3.3.0
   resolution: "lie@npm:3.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flie%2F-%2Flie-3.3.0.tgz"
@@ -2577,6 +2957,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"logo-png-sm-d731e5@workspace:dollar-crypto/logo/logo-png-sm":
+  version: 0.0.0-use.local
+  resolution: "logo-png-sm-d731e5@workspace:dollar-crypto/logo/logo-png-sm"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "logout-516430@workspace:dollar-ui/ui/action-buttons/logout":
   version: 0.0.0-use.local
   resolution: "logout-516430@workspace:dollar-ui/ui/action-buttons/logout"
@@ -2593,6 +2983,16 @@ __metadata:
   checksum: 16afbe8f749c7c849db1f4de4e2e6a31ac6e617cead3bdc4f9605cb703cd20e1e9fc1a7baba674ffcca57d660a6e5b53a9e236d7b25a295d3855cca79cc06744
   languageName: node
   linkType: hard
+
+"loom-4d34b2@workspace:crypto-logos/loom":
+  version: 0.0.0-use.local
+  resolution: "loom-4d34b2@workspace:crypto-logos/loom"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
@@ -2615,6 +3015,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lpt-ebf12b@workspace:crypto-logos/lpt":
+  version: 0.0.0-use.local
+  resolution: "lpt-ebf12b@workspace:crypto-logos/lpt"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"lrc-bb2ed5@workspace:crypto-logos/lrc":
+  version: 0.0.0-use.local
+  resolution: "lrc-bb2ed5@workspace:crypto-logos/lrc"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"ltc-d5fdd8@workspace:crypto-logos/ltc":
+  version: 0.0.0-use.local
+  resolution: "ltc-d5fdd8@workspace:crypto-logos/ltc"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "lz-string@npm:^1.4.4":
   version: 1.4.4
   resolution: "lz-string@npm:1.4.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Flz-string%2F-%2Flz-string-1.4.4.tgz"
@@ -2624,10 +3054,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mask-d86d9b@workspace:crypto-logos/mask":
+  version: 0.0.0-use.local
+  resolution: "mask-d86d9b@workspace:crypto-logos/mask"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "material-ui-theme-7649bc@workspace:dollar-crypto/dollar-crypto/constants/material-ui-theme":
   version: 0.0.0-use.local
   resolution: "material-ui-theme-7649bc@workspace:dollar-crypto/dollar-crypto/constants/material-ui-theme"
   peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"matic-8d59a7@workspace:crypto-logos/matic":
+  version: 0.0.0-use.local
+  resolution: "matic-8d59a7@workspace:crypto-logos/matic"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   languageName: unknown
@@ -2641,6 +3091,36 @@ __metadata:
   checksum: 66ac295f8a7b59788000ea3749938b0970344c841750abd96694f80269b926ebcafad3deeb3f1da2522978b119e6ae3a5869b63b13a7859a456b3408bd18a078
   languageName: node
   linkType: hard
+
+"mir-ef2311@workspace:crypto-logos/mir":
+  version: 0.0.0-use.local
+  resolution: "mir-ef2311@workspace:crypto-logos/mir"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"mkr-f960e9@workspace:crypto-logos/mkr":
+  version: 0.0.0-use.local
+  resolution: "mkr-f960e9@workspace:crypto-logos/mkr"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"mln-81e916@workspace:crypto-logos/mln":
+  version: 0.0.0-use.local
+  resolution: "mln-81e916@workspace:crypto-logos/mln"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "mobile-container-790e3e@workspace:dollar-ui/ui/mobile-container":
   version: 0.0.0-use.local
@@ -2666,12 +3146,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nkn-176ae3@workspace:crypto-logos/nkn":
+  version: 0.0.0-use.local
+  resolution: "nkn-176ae3@workspace:crypto-logos/nkn"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"nmr-30dfe3@workspace:crypto-logos/nmr":
+  version: 0.0.0-use.local
+  resolution: "nmr-30dfe3@workspace:crypto-logos/nmr"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "node-fetch@npm:2.6.1":
   version: 2.6.1
   resolution: "node-fetch@npm:2.6.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-fetch%2F-%2Fnode-fetch-2.6.1.tgz"
   checksum: 91075bedd57879117e310fbcc36983ad5d699e522edb1ebcdc4ee5294c982843982652925c3532729fdc86b2d64a8a827797a745f332040d91823c8752ee4d7c
   languageName: node
   linkType: hard
+
+"nu-b7d97f@workspace:crypto-logos/nu":
+  version: 0.0.0-use.local
+  resolution: "nu-b7d97f@workspace:crypto-logos/nu"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "number-display-0f4a6d@workspace:dollar-ui/ui/number-display":
   version: 0.0.0-use.local
@@ -2716,6 +3226,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ogn-4061c3@workspace:crypto-logos/ogn":
+  version: 0.0.0-use.local
+  resolution: "ogn-4061c3@workspace:crypto-logos/ogn"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"omg-8345ab@workspace:crypto-logos/omg":
+  version: 0.0.0-use.local
+  resolution: "omg-8345ab@workspace:crypto-logos/omg"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "once@npm:^1.3.0":
   version: 1.4.0
   resolution: "once@npm:1.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fonce%2F-%2Fonce-1.4.0.tgz"
@@ -2725,12 +3255,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"orn-f45cb8@workspace:crypto-logos/orn":
+  version: 0.0.0-use.local
+  resolution: "orn-f45cb8@workspace:crypto-logos/orn"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "os-homedir@npm:^1.0.0":
   version: 1.0.2
   resolution: "os-homedir@npm:1.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fos-homedir%2F-%2Fos-homedir-1.0.2.tgz"
   checksum: af609f5a7ab72de2f6ca9be6d6b91a599777afc122ac5cad47e126c1f67c176fe9b52516b9eeca1ff6ca0ab8587fe66208bc85e40a3940125f03cdb91408e9d2
   languageName: node
   linkType: hard
+
+"oxt-9bd2ad@workspace:crypto-logos/oxt":
+  version: 0.0.0-use.local
+  resolution: "oxt-9bd2ad@workspace:crypto-logos/oxt"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "pako@npm:~1.0.2":
   version: 1.0.11
@@ -2756,6 +3306,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pax-9a5ef5@workspace:crypto-logos/pax":
+  version: 0.0.0-use.local
+  resolution: "pax-9a5ef5@workspace:crypto-logos/pax"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"pla-6a882f@workspace:crypto-logos/pla":
+  version: 0.0.0-use.local
+  resolution: "pla-6a882f@workspace:crypto-logos/pla"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "polished@npm:4.1.3":
   version: 4.1.3
   resolution: "polished@npm:4.1.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpolished%2F-%2Fpolished-4.1.3.tgz"
@@ -2764,6 +3334,16 @@ __metadata:
   checksum: 3865f569f1ee0beb2959eb4ab8e2baa58c5c662fe9a333de71811e52a2f187ade769d1a87d275370721be64907f9e6bfd8a6158380dd87cd34d0dbf498f302e0
   languageName: node
   linkType: hard
+
+"poly-0351e2@workspace:crypto-logos/poly":
+  version: 0.0.0-use.local
+  resolution: "poly-0351e2@workspace:crypto-logos/poly"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "popper.js@npm:1.16.1-lts":
   version: 1.16.1-lts
@@ -2882,6 +3462,36 @@ __metadata:
   checksum: 80e9d9610c3eb66f9eae4e44a1ae30381cedb721b7d5f635d781fe4c507e2c77bb7c879addcd1dda79733d3ae589d9e66fd18d42baf99b35df7382a0f9920795
   languageName: node
   linkType: hard
+
+"qnt-62c683@workspace:crypto-logos/qnt":
+  version: 0.0.0-use.local
+  resolution: "qnt-62c683@workspace:crypto-logos/qnt"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"quick-c0d88c@workspace:crypto-logos/quick":
+  version: 0.0.0-use.local
+  resolution: "quick-c0d88c@workspace:crypto-logos/quick"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"rai-4e8420@workspace:crypto-logos/rai":
+  version: 0.0.0-use.local
+  resolution: "rai-4e8420@workspace:crypto-logos/rai"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "react-dom@npm:16.13.1":
   version: 16.13.1
@@ -3060,12 +3670,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ren-27c4b9@workspace:crypto-logos/ren":
+  version: 0.0.0-use.local
+  resolution: "ren-27c4b9@workspace:crypto-logos/ren"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"rep-4fe7d2@workspace:crypto-logos/rep":
+  version: 0.0.0-use.local
+  resolution: "rep-4fe7d2@workspace:crypto-logos/rep"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "repeat-string@npm:^1.6.1":
   version: 1.6.1
   resolution: "repeat-string@npm:1.6.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Frepeat-string%2F-%2Frepeat-string-1.6.1.tgz"
   checksum: 1b809fc6db97decdc68f5b12c4d1a671c8e3f65ec4a40c238bc5200e44e85bcc52a54f78268ab9c29fcf5fe4f1343e805420056d1f30fa9a9ee4c2d93e3cc6c0
   languageName: node
   linkType: hard
+
+"req-1fe5c6@workspace:crypto-logos/req":
+  version: 0.0.0-use.local
+  resolution: "req-1fe5c6@workspace:crypto-logos/req"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "require-directory@npm:^2.1.1":
   version: 2.1.1
@@ -3095,6 +3735,26 @@ __metadata:
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
   languageName: node
   linkType: hard
+
+"rlc-c0e9d8@workspace:crypto-logos/rlc":
+  version: 0.0.0-use.local
+  resolution: "rlc-c0e9d8@workspace:crypto-logos/rlc"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"rly-972494@workspace:crypto-logos/rly":
+  version: 0.0.0-use.local
+  resolution: "rly-972494@workspace:crypto-logos/rly"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "root-workspace-0b6124@workspace:.":
   version: 0.0.0-use.local
@@ -3229,6 +3889,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"skl-9b8424@workspace:crypto-logos/skl":
+  version: 0.0.0-use.local
+  resolution: "skl-9b8424@workspace:crypto-logos/skl"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"snx-449069@workspace:crypto-logos/snx":
+  version: 0.0.0-use.local
+  resolution: "snx-449069@workspace:crypto-logos/snx"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"sol-403801@workspace:crypto-logos/sol":
+  version: 0.0.0-use.local
+  resolution: "sol-403801@workspace:crypto-logos/sol"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "source-map@npm:^0.5.0":
   version: 0.5.7
   resolution: "source-map@npm:0.5.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fsource-map%2F-%2Fsource-map-0.5.7.tgz"
@@ -3239,6 +3929,26 @@ __metadata:
 "space-352e6d@workspace:dollar-ui/ui/space":
   version: 0.0.0-use.local
   resolution: "space-352e6d@workspace:dollar-ui/ui/space"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"stealth-mode-734e14@workspace:dollar-ui/ui/stealth-mode":
+  version: 0.0.0-use.local
+  resolution: "stealth-mode-734e14@workspace:dollar-ui/ui/stealth-mode"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"storj-35133e@workspace:crypto-logos/storj":
+  version: 0.0.0-use.local
+  resolution: "storj-35133e@workspace:crypto-logos/storj"
   peerDependencies:
     "@testing-library/react": 12.0.0
     react: ^16.8.0 || ^17.0.0
@@ -3331,6 +4041,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sushi-791664@workspace:crypto-logos/sushi":
+  version: 0.0.0-use.local
+  resolution: "sushi-791664@workspace:crypto-logos/sushi"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"switch-a7b6a3@workspace:dollar-ui/ui/inputs/switch":
+  version: 0.0.0-use.local
+  resolution: "switch-a7b6a3@workspace:dollar-ui/ui/inputs/switch"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "text-4ee68f@workspace:dollar-ui/text/text":
   version: 0.0.0-use.local
   resolution: "text-4ee68f@workspace:dollar-ui/text/text"
@@ -3391,6 +4121,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"trb-f33ab8@workspace:crypto-logos/trb":
+  version: 0.0.0-use.local
+  resolution: "trb-f33ab8@workspace:crypto-logos/trb"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"tribe-f163ac@workspace:crypto-logos/tribe":
+  version: 0.0.0-use.local
+  resolution: "tribe-f163ac@workspace:crypto-logos/tribe"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"tru-2296e1@workspace:crypto-logos/tru":
+  version: 0.0.0-use.local
+  resolution: "tru-2296e1@workspace:crypto-logos/tru"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "tslib@npm:^2.1.0":
   version: 2.3.1
   resolution: "tslib@npm:2.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftslib%2F-%2Ftslib-2.3.1.tgz"
@@ -3415,6 +4175,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"uma-06193f@workspace:crypto-logos/uma":
+  version: 0.0.0-use.local
+  resolution: "uma-06193f@workspace:crypto-logos/uma"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "uni-4d7f7b@workspace:crypto-logos/uni":
   version: 0.0.0-use.local
   resolution: "uni-4d7f7b@workspace:crypto-logos/uni"
@@ -3432,6 +4202,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"usdt-f2b2d8@workspace:crypto-logos/usdt":
+  version: 0.0.0-use.local
+  resolution: "usdt-f2b2d8@workspace:crypto-logos/usdt"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "user-home@npm:^2.0.0":
   version: 2.0.0
   resolution: "user-home@npm:2.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuser-home%2F-%2Fuser-home-2.0.0.tgz"
@@ -3440,6 +4220,16 @@ __metadata:
   checksum: a3329faa959fcd9e3e01a03347ca974f7f6b8896e6a634f29c61d8d5b61557d853c6fc5a6dff1a28e2da85b400d0e4490368a28de452ba8c41a2bf3a92cb110a
   languageName: node
   linkType: hard
+
+"ust-a29dca@workspace:crypto-logos/ust":
+  version: 0.0.0-use.local
+  resolution: "ust-a29dca@workspace:crypto-logos/ust"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "util-deprecate@npm:~1.0.1":
   version: 1.0.2
@@ -3570,6 +4360,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"xtz-a49960@workspace:crypto-logos/xtz":
+  version: 0.0.0-use.local
+  resolution: "xtz-a49960@workspace:crypto-logos/xtz"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "y18n@npm:^5.0.5":
   version: 5.0.8
   resolution: "y18n@npm:5.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fy18n%2F-%2Fy18n-5.0.8.tgz"
@@ -3598,3 +4398,13 @@ __metadata:
   checksum: b14afbb51e3251a204d81937c86a7e9d4bdbf9a2bcee38226c900d00f522969ab675703bee2a6f99f8e20103f608382936034e64d921b74df82b63c07c5e8f59
   languageName: node
   linkType: hard
+
+"zrx-c2bed4@workspace:crypto-logos/zrx":
+  version: 0.0.0-use.local
+  resolution: "zrx-c2bed4@workspace:crypto-logos/zrx"
+  peerDependencies:
+    "@testing-library/react": 12.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft

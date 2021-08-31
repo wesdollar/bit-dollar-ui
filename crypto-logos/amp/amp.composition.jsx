@@ -1,6 +1,4 @@
-import React from 'react';
-import { Amp } from './amp';
+import React from "react";
+import Amp from "./amp";
 
-export const BasicAmp = () => (
-  <Amp />
-);
+export const BasicAmp = () => <Amp />;

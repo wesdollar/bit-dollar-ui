@@ -8,3 +8,5 @@ export const Amp = () => {
     </div>
   );
 };
+
+export default Amp;

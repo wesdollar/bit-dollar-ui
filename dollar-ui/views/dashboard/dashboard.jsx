@@ -13,9 +13,7 @@ import { Logout } from "@wesdollar/dollar-ui.ui.action-buttons.logout";
 import { colors } from "@wesdollar/dollar-crypto.dollar-crypto.constants.colors";
 import SettingsEthernetIcon from "@material-ui/icons/SettingsEthernet";
 import { Body2 } from "@wesdollar/dollar-ui.ui.typography.body2";
-import { FormControlLabel, Switch, FormGroup } from "@material-ui/core";
-import { materialUiTheme } from "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme";
-import { ThemeProvider } from "@material-ui/core";
+import { Switch } from "@wesdollar/dollar-ui.ui.inputs.switch";
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -99,21 +97,13 @@ export const Dashboard = ({
         </ButtonContainer>
         <Space height={gutters.gutter} />
         <ButtonContainer>
-          <ThemeProvider theme={materialUiTheme}>
-            <FormGroup>
-              <FormControlLabel
-                control={
-                  <Switch
-                    checked={stealthMode}
-                    onChange={() => setStealthMode(!stealthMode)}
-                    name="stealth-mode"
-                    color="primary"
-                  />
-                }
-                label="Stealth Mode"
-              />
-            </FormGroup>
-          </ThemeProvider>
+          <Switch
+            inputName="stealth-mode"
+            onChange={() => setStealthMode(!stealthMode)}
+            checked={stealthMode}
+          >
+            stealth mode
+          </Switch>
         </ButtonContainer>
         <Space height={gutters.smallGutter} />
         <ButtonContainer>

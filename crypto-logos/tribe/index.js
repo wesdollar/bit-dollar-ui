@@ -1,0 +1,1 @@
+export { Tribe } from './tribe';

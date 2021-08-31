@@ -1,0 +1,1 @@
+export { Quick } from './quick';

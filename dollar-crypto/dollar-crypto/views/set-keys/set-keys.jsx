@@ -12,6 +12,7 @@ import { Text } from "@wesdollar/dollar-ui.text.text";
 import { colors } from "@wesdollar/dollar-crypto.dollar-crypto.constants.colors";
 import { CenteredHorz } from "@wesdollar/dollar-ui.ui.centered-horz";
 import { gutters } from "@wesdollar/dollar-ui.constants.gutters";
+import { Body1 } from "@wesdollar/dollar-ui.ui.typography.body1";
 
 const theme = materialUiTheme;
 
@@ -52,7 +53,7 @@ export const SetKeys = ({ onSave, validationErrors, view }) => {
 
       return (
         <Text>
-          <p style={{ marginTop: 0 }}>
+          <Body1>
             We're currently only integrated with Coinbase. You'll need to
             generate Coinbase API crendentials.{" "}
             <Anchor
@@ -62,15 +63,15 @@ export const SetKeys = ({ onSave, validationErrors, view }) => {
               Click here
             </Anchor>{" "}
             for help getting your API keys.
-          </p>
-          <p>
+          </Body1>
+          <Body1>
             Grant the following permissions when setting up your keys. Never
             provide write access to us!
-          </p>
-          <p>
-            We never store any of your Coinbase data. The only data we store are
+          </Body1>
+          <Body1>
+            We never store any of your Coinbase data. The only data we store
             your API keys and login information.
-          </p>
+          </Body1>
           <ul>
             {apiPermissions.map((permission, index) => (
               <li key={`permissions-${index}`}>

@@ -9,17 +9,59 @@
  */
 
 {
+    "1inch": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/1inch"
+    },
+    "aave": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/aave"
+    },
+    "ach": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/ach"
+    },
     "action-buttons/refresh": {
         "scope": "wesdollar.dollar-ui",
         "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/action-buttons/refresh"
     },
-    "amp": {
+    "ada": {
         "scope": "wesdollar.crypto-logos",
         "version": "0.0.1",
         "mainFile": "index.js",
+        "rootDir": "crypto-logos/ada"
+    },
+    "algo": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/algo"
+    },
+    "amp": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.2",
+        "mainFile": "index.js",
         "rootDir": "crypto-logos/amp"
+    },
+    "ankr": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/ankr"
+    },
+    "atom": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/atom"
     },
     "auth/apple": {
         "scope": "wesdollar.dollar-ui",
@@ -38,6 +80,78 @@
         "version": "1.0.39",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/auth/github"
+    },
+    "axs": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/axs"
+    },
+    "bal": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/bal"
+    },
+    "band": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/band"
+    },
+    "bat": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.2",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/bat"
+    },
+    "bch": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/bch"
+    },
+    "bnt": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/bnt"
+    },
+    "bond": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/bond"
+    },
+    "btc": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/btc"
+    },
+    "cgld": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/cgld"
+    },
+    "chz": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/chz"
+    },
+    "clv": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/clv"
+    },
+    "comp": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/comp"
     },
     "constants/colors": {
         "scope": "wesdollar.dollar-ui",
@@ -69,9 +183,15 @@
         "mainFile": "index.js",
         "rootDir": "dollar-ui/constants/styles"
     },
+    "crv": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/crv"
+    },
     "crypto/list-wallets": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/crypto/list-wallets"
     },
@@ -83,9 +203,33 @@
     },
     "crypto/wallet-summary": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/crypto/wallet-summary"
+    },
+    "ctsi": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/ctsi"
+    },
+    "dai": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/dai"
+    },
+    "dash": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/dash"
+    },
+    "doge": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/doge"
     },
     "dollar-crypto/constants/colors": {
         "scope": "wesdollar.dollar-crypto",
@@ -113,21 +257,45 @@
     },
     "dollar-crypto/views/login": {
         "scope": "wesdollar.dollar-crypto",
-        "version": "2.0.19",
+        "version": "2.0.21",
         "mainFile": "index.js",
         "rootDir": "dollar-crypto/dollar-crypto/views/login"
     },
     "dollar-crypto/views/set-keys": {
         "scope": "wesdollar.dollar-crypto",
-        "version": "0.0.21",
+        "version": "0.0.22",
         "mainFile": "index.js",
         "rootDir": "dollar-crypto/dollar-crypto/views/set-keys"
     },
     "dollar-crypto/views/ws-login": {
         "scope": "wesdollar.dollar-crypto",
-        "version": "0.0.7",
+        "version": "0.0.9",
         "mainFile": "index.js",
         "rootDir": "dollar-crypto/dollar-crypto/views/ws-login"
+    },
+    "dot": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/dot"
+    },
+    "enj": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/enj"
+    },
+    "eos": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/eos"
+    },
+    "etc": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/etc"
     },
     "eth": {
         "scope": "wesdollar.crypto-logos",
@@ -135,11 +303,71 @@
         "mainFile": "index.js",
         "rootDir": "crypto-logos/eth"
     },
+    "farm": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/farm"
+    },
+    "fet": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/fet"
+    },
+    "fil": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/fil"
+    },
+    "forth": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/forth"
+    },
     "generators": {
         "scope": "wesdollar.dollar-ui",
         "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "dollar-ui/generators"
+    },
+    "grt": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/grt"
+    },
+    "gtc": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/gtc"
+    },
+    "icp": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/icp"
+    },
+    "iotx": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/iotx"
+    },
+    "keep": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/keep"
+    },
+    "knc": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/knc"
     },
     "logo/logo-png-md": {
         "scope": "wesdollar.dollar-crypto",
@@ -152,6 +380,198 @@
         "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "dollar-crypto/logo/logo-png-sm"
+    },
+    "loom": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/loom"
+    },
+    "lpt": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/lpt"
+    },
+    "lrc": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/lrc"
+    },
+    "ltc": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/ltc"
+    },
+    "mask": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/mask"
+    },
+    "matic": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/matic"
+    },
+    "mir": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/mir"
+    },
+    "mkr": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/mkr"
+    },
+    "mln": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/mln"
+    },
+    "nkn": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/nkn"
+    },
+    "nmr": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/nmr"
+    },
+    "nu": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/nu"
+    },
+    "ogn": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/ogn"
+    },
+    "omg": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/omg"
+    },
+    "orn": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/orn"
+    },
+    "oxt": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/oxt"
+    },
+    "pax": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/pax"
+    },
+    "pla": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/pla"
+    },
+    "poly": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/poly"
+    },
+    "qnt": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/qnt"
+    },
+    "quick": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/quick"
+    },
+    "rai": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/rai"
+    },
+    "ren": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/ren"
+    },
+    "rep": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/rep"
+    },
+    "req": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/req"
+    },
+    "rlc": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/rlc"
+    },
+    "rly": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/rly"
+    },
+    "skl": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/skl"
+    },
+    "snx": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/snx"
+    },
+    "sol": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/sol"
+    },
+    "storj": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/storj"
+    },
+    "sushi": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/sushi"
     },
     "test-data/crypto/resources/profits": {
         "scope": "wesdollar.dollar-ui",
@@ -170,6 +590,24 @@
         "version": "0.0.4",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/text/text"
+    },
+    "trb": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/trb"
+    },
+    "tribe": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/tribe"
+    },
+    "tru": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/tru"
     },
     "ui/action-buttons/logout": {
         "scope": "wesdollar.dollar-ui",
@@ -197,9 +635,15 @@
     },
     "ui/error-state": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/error-state"
+    },
+    "ui/inputs/switch": {
+        "scope": "wesdollar.dollar-ui",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "dollar-ui/ui/inputs/switch"
     },
     "ui/inputs/text-field": {
         "scope": "wesdollar.dollar-ui",
@@ -251,13 +695,13 @@
     },
     "ui/typography/body1": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/typography/body1"
     },
     "ui/typography/body2": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/typography/body2"
     },
@@ -279,15 +723,33 @@
         "mainFile": "index.js",
         "rootDir": "dollar-ui/ui/view-container"
     },
+    "uma": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/uma"
+    },
     "uni": {
         "scope": "wesdollar.crypto-logos",
         "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "crypto-logos/uni"
     },
+    "usdt": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/usdt"
+    },
+    "ust": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/ust"
+    },
     "views/dashboard": {
         "scope": "wesdollar.dollar-ui",
-        "version": "0.0.27",
+        "version": "0.0.29",
         "mainFile": "index.js",
         "rootDir": "dollar-ui/views/dashboard"
     },
@@ -296,6 +758,18 @@
         "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "crypto-logos/xlm"
+    },
+    "xtz": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/xtz"
+    },
+    "zrx": {
+        "scope": "wesdollar.crypto-logos",
+        "version": "0.0.1",
+        "mainFile": "index.js",
+        "rootDir": "crypto-logos/zrx"
     },
     "$schema-version": "14.9.0"
 }

@@ -1,0 +1,1 @@
+export { Gtc } from './gtc';

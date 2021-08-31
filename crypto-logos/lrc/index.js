@@ -1,0 +1,1 @@
+export { Lrc } from './lrc';

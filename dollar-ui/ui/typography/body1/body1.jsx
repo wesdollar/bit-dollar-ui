@@ -1,17 +1,18 @@
 import React from "react";
-import styled from "styled-components";
 import { TypographyBase } from "@wesdollar/dollar-ui.ui.typography.typography-base";
-
-const StyledType = styled(TypographyBase)`
-  &.MuiTypography-body1 {
-    margin-bottom: 14px;
-  }
-`;
+import { ThemeProvider } from "@material-ui/core";
+import { materialUiTheme } from "@wesdollar/dollar-crypto.dollar-crypto.constants.material-ui-theme";
 
 export const Body1 = ({ children }) => {
   return (
-    <StyledType variant="body1" data-testid="body1-container">
-      {children}
-    </StyledType>
+    <ThemeProvider theme={materialUiTheme}>
+      <TypographyBase
+        gutterBottom
+        variant="body1"
+        data-testid="body1-container"
+      >
+        {children}
+      </TypographyBase>
+    </ThemeProvider>
   );
 };
